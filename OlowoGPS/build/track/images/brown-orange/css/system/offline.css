@@ -1,0 +1,110 @@
+/*
+#------------------------------------------------------------------------
+# Corporate - April 2010 (for Joomla 1.5)
+#
+# Copyright (C) 2007-2010 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com   
+#------------------------------------------------------------------------ 
+# Based on T3 Framework
+#------------------------------------------------------------------------
+# Copyright (C) 2004-2009 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+# @license - GNU/GPL, http://www.gnu.org/copyleft/gpl.html
+# Author: J.O.O.M Solutions Co., Ltd
+# Websites: http://www.joomlart.com - http://www.joomlancers.com
+#------------------------------------------------------------------------
+*/
+
+body {
+	font-family: Arial, Helvetica, Sans Serif; 
+	font-size: 12px;
+	color: #979189;
+	background:#f4f2ef;
+}
+
+img  { 
+	border: 0 none;
+	display:block;
+	margin:auto;
+}
+
+h1{
+	font-size:20px;
+	text-shadow:1px 1px 1px #ccc;
+}
+
+#frame{
+	width:480px;
+	margin:30px auto;
+}
+#frame>h1,
+#frame>p{
+	text-align:center;
+}
+#frame>p{
+	background:#bbb6b1;
+	padding:5px;
+	color:#fff;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+fieldset{
+	border:none;
+	padding:0;
+	margin:0;
+}
+
+#form-login-username,
+#form-login-password,
+#form-login-remember{
+	width:300px;
+	clear:both;
+	margin:6px auto 0 auto;
+	overflow:hidden;
+}
+
+#form-login-username label,
+#form-login-password label,
+#form-login-remember label{
+	width:100px;
+	float:left;
+	text-align:left;
+	height:24px;
+	line-height:24px;
+
+}
+
+#form-login-username input,
+#form-login-password input{
+	border:1px solid #d6d4d1;
+	border-right:none;
+	border-bottom:none;
+	background:#fff;
+	float:left;
+	height:24px;
+	width:182px;
+	color:#979189;
+	padding-left:8px;
+}
+
+#form-login-remember input{
+	margin:5px 0 0 0;
+	padding:0;
+}
+
+input[type=submit]{
+	margin:10px auto;
+	display:block;
+	background:#dddad8;
+	border:1px solid #ccc!important;
+	border-top:none!important;
+	border-left:none!important;
+	text-transform:uppercase;
+	color:#fff;
+	font-weight:bold;
+	height:24px;
+	line-height:24px;
+	font-size:10px;
+}

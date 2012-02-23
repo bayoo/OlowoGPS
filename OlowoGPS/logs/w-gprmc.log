@@ -1,0 +1,101 @@
+[INFO_|09/19 23:39:22|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=22580, free=8953, used=13627
+[INFO_|09/19 23:39:23|BasicPrivateLabelLoader.printInfo:359] Not a 'Track/Service' servlet
+[INFO_|09/19 23:39:23|DCServerFactory._startupInit:1231] Loading only DCServer name: w-gprmc
+[WARN_|09/19 23:39:23|DCServerFactory._loadDCServerXML:583] DCServerConfig XML file not found: dcserver_w-gprmc.xml
+[INFO_|09/19 23:39:23|DCServerFactory._loadDCServerXML:590] DCServerConfig XML file not loaded: C:\Users\Bayo\Documents\apache-tomcat-7.0.19-windows-x86\apache-tomcat-7.0.19\webapps\gprmc\WEB-INF\dcservers.xml
+[INFO_|09/19 23:39:23|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|10/09 20:19:46|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=15936, free=8815, used=7121
+[INFO_|10/09 20:19:46|BasicPrivateLabelLoader.printInfo:359] Not a 'Track/Service' servlet
+[INFO_|10/09 20:19:46|DCServerFactory._startupInit:1231] Loading only DCServer name: w-gprmc
+[WARN_|10/09 20:19:46|DCServerFactory._loadDCServerXML:583] DCServerConfig XML file not found: dcserver_w-gprmc.xml
+[INFO_|10/09 20:19:46|DCServerFactory._loadDCServerXML:590] DCServerConfig XML file not loaded: C:\Users\Bayo\Documents\apache-tomcat-7.0.19-windows-x86\apache-tomcat-7.0.19\webapps\gprmc\WEB-INF\dcservers.xml
+[INFO_|10/09 20:19:46|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|10/09 21:47:22|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=15936, free=8768, used=7168
+[INFO_|10/09 21:47:23|BasicPrivateLabelLoader.printInfo:359] Not a 'Track/Service' servlet
+[INFO_|10/09 21:47:23|DCServerFactory._startupInit:1231] Loading only DCServer name: w-gprmc
+[WARN_|10/09 21:47:23|DCServerFactory._loadDCServerXML:583] DCServerConfig XML file not found: dcserver_w-gprmc.xml
+[INFO_|10/09 21:47:23|DCServerFactory._loadDCServerXML:590] DCServerConfig XML file not loaded: C:\Users\Bayo\Documents\apache-tomcat-7.0.19-windows-x86\apache-tomcat-7.0.19\webapps\gprmc\WEB-INF\dcservers.xml
+[INFO_|10/09 21:47:23|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|10/17 18:48:39|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=15936, free=8800, used=7136
+[INFO_|10/17 18:48:40|BasicPrivateLabelLoader.printInfo:359] Not a 'Track/Service' servlet
+[INFO_|10/17 18:48:40|DCServerFactory._startupInit:1231] Loading only DCServer name: w-gprmc
+[WARN_|10/17 18:48:40|DCServerFactory._loadDCServerXML:583] DCServerConfig XML file not found: dcserver_w-gprmc.xml
+[INFO_|10/17 18:48:40|DCServerFactory._loadDCServerXML:590] DCServerConfig XML file not loaded: C:\Users\Bayo\Documents\apache-tomcat-7.0.19-windows-x86\apache-tomcat-7.0.19\webapps\gprmc\WEB-INF\dcservers.xml
+[INFO_|10/17 18:48:40|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|10/17 18:52:38|Data.logInfo:1077] gprmc: -------------------------------------------------------------------
+[INFO_|10/17 18:52:38|Data.logInfo:1077] gprmc: Version             : 1.2.5
+[INFO_|10/17 18:52:38|Data.logInfo:1077] gprmc: Default AccountID   : gprmc        [gprmc.defaultAccountID]
+[INFO_|10/17 18:52:38|Data.logInfo:1077] gprmc: Minimum speed (km/h): 4.0          [gprmc.minimumSpeedKPH]
+[INFO_|10/17 18:52:38|Data.logInfo:1077] gprmc: Simulate Geozones   : false        [gprmc.simulateGeozones]
+[INFO_|10/17 18:52:38|Data.logInfo:1077] gprmc: Estimate Odometer   : false        [gprmc.estimateOdometer]
+[INFO_|10/17 18:52:38|Data.logInfo:1077] gprmc: Date Format         : YMD          [gprmc.dateFormat]
+[INFO_|10/17 18:52:38|Data.logInfo:1077] gprmc: UniqueID parameter  : &id=         [gprmc.parm.unique]
+[INFO_|10/17 18:52:38|Data.logInfo:1077] gprmc: Account parameter   : &acct=       [gprmc.parm.account]
+[INFO_|10/17 18:52:38|Data.logInfo:1077] gprmc: Device parameter    : &dev=        [gprmc.parm.device]
+[INFO_|10/17 18:52:38|Data.logInfo:1077] gprmc: Status parameter    : &code=       [gprmc.parm.status]
+[INFO_|10/17 18:52:38|Data.logInfo:1077] gprmc: $GPRMC parameter    : &gprmc=      [gprmc.parm.gprmc]
+[INFO_|10/17 18:52:38|Data.logInfo:1077] gprmc: Date parameter      : &date=       [gprmc.parm.date]
+[INFO_|10/17 18:52:38|Data.logInfo:1077] gprmc: Time parameter      : &time=       [gprmc.parm.time]
+[INFO_|10/17 18:52:38|Data.logInfo:1077] gprmc: Latitude parameter  : &lat=        [gprmc.parm.latitude]
+[INFO_|10/17 18:52:38|Data.logInfo:1077] gprmc: Longitude parameter : &lon=        [gprmc.parm.longitude]
+[INFO_|10/17 18:52:38|Data.logInfo:1077] gprmc: SpeedKPH parameter  : &speed=      [gprmc.parm.speed]
+[INFO_|10/17 18:52:38|Data.logInfo:1077] gprmc: Heading parameter   : &head=       [gprmc.parm.heading]
+[INFO_|10/17 18:52:38|Data.logInfo:1077] gprmc: Altitude parameter  : &alt=        [gprmc.parm.altitude]
+[INFO_|10/17 18:52:38|Data.logInfo:1077] gprmc: Odometer parameter  : &odom=       [gprmc.parm.odometer]
+[INFO_|10/17 18:52:38|Data.logInfo:1077] gprmc: Address parameter   : &addr=       [gprmc.parm.address]
+[INFO_|10/17 18:52:38|Data.logInfo:1077] gprmc: Driver parameter    : &drv=        [gprmc.parm.driver]
+[INFO_|10/17 18:52:38|Data.logInfo:1077] gprmc: Message parameter   : &msg=        [gprmc.parm.message]
+[INFO_|10/17 18:52:38|Data.logInfo:1077] gprmc: -------------------------------------------------------------------
+[INFO_|10/17 18:52:38|Data.logInfo:1077] gprmc: [127.0.0.1] POST: http://localhost:8080/gprmc/Data (n/a) [code=123456789012345&gprmc=$GPRMC,065954,V,3244.2749,N,14209.9369,W,21.6,0.0,211202,11.8,E,S*07&id=bayo]
+[WARN_|10/17 18:52:38|Data.logWarn:1082] gprmc: Unique ID not found!: gprmc_bayo
+[INFO_|10/17 18:55:32|Data.logInfo:1077] gprmc: [127.0.0.1] POST: http://localhost:8080/gprmc/Data (n/a) [code=123456789012345&gprmc=$GPRMC,065954,V,3244.2749,N,14209.9369,W,21.6,0.0,211202,11.8,E,S*07&id=bayo]
+[WARN_|10/17 18:55:32|Data.logWarn:1082] gprmc: Unique ID not found!: gprmc_bayo
+[INFO_|10/17 18:57:41|DBConnection.closeAllConnections:315] Closed all open DBConnections: 2
+[INFO_|10/17 18:57:41|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: dcs:w-gprmc
+[INFO_|10/17 18:57:41|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/03 20:39:42|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=30812, free=14858, used=15954
+[INFO_|02/03 20:39:44|BasicPrivateLabelLoader.printInfo:359] Not a 'Track/Service' servlet
+[INFO_|02/03 20:39:44|DCServerFactory._startupInit:1231] Loading only DCServer name: w-gprmc
+[WARN_|02/03 20:39:44|DCServerFactory._loadDCServerXML:583] DCServerConfig XML file not found: dcserver_w-gprmc.xml
+[INFO_|02/03 20:39:44|DCServerFactory._loadDCServerXML:590] DCServerConfig XML file not loaded: C:\Users\Bayo\Documents\apache-tomcat-7.0.19-windows-x86\apache-tomcat-7.0.19\webapps\gprmc\WEB-INF\dcservers.xml
+[INFO_|02/03 20:39:44|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/03 20:39:55|Data.logInfo:1077] gprmc: -------------------------------------------------------------------
+[INFO_|02/03 20:39:55|Data.logInfo:1077] gprmc: Version             : 1.2.5
+[INFO_|02/03 20:39:55|Data.logInfo:1077] gprmc: Default AccountID   : gprmc        [gprmc.defaultAccountID]
+[INFO_|02/03 20:39:55|Data.logInfo:1077] gprmc: Minimum speed (km/h): 4.0          [gprmc.minimumSpeedKPH]
+[INFO_|02/03 20:39:55|Data.logInfo:1077] gprmc: Simulate Geozones   : false        [gprmc.simulateGeozones]
+[INFO_|02/03 20:39:55|Data.logInfo:1077] gprmc: Estimate Odometer   : false        [gprmc.estimateOdometer]
+[INFO_|02/03 20:39:55|Data.logInfo:1077] gprmc: Date Format         : YMD          [gprmc.dateFormat]
+[INFO_|02/03 20:39:55|Data.logInfo:1077] gprmc: UniqueID parameter  : &id=         [gprmc.parm.unique]
+[INFO_|02/03 20:39:55|Data.logInfo:1077] gprmc: Account parameter   : &acct=       [gprmc.parm.account]
+[INFO_|02/03 20:39:55|Data.logInfo:1077] gprmc: Device parameter    : &dev=        [gprmc.parm.device]
+[INFO_|02/03 20:39:55|Data.logInfo:1077] gprmc: Status parameter    : &code=       [gprmc.parm.status]
+[INFO_|02/03 20:39:55|Data.logInfo:1077] gprmc: $GPRMC parameter    : &gprmc=      [gprmc.parm.gprmc]
+[INFO_|02/03 20:39:55|Data.logInfo:1077] gprmc: Date parameter      : &date=       [gprmc.parm.date]
+[INFO_|02/03 20:39:55|Data.logInfo:1077] gprmc: Time parameter      : &time=       [gprmc.parm.time]
+[INFO_|02/03 20:39:55|Data.logInfo:1077] gprmc: Latitude parameter  : &lat=        [gprmc.parm.latitude]
+[INFO_|02/03 20:39:55|Data.logInfo:1077] gprmc: Longitude parameter : &lon=        [gprmc.parm.longitude]
+[INFO_|02/03 20:39:55|Data.logInfo:1077] gprmc: SpeedKPH parameter  : &speed=      [gprmc.parm.speed]
+[INFO_|02/03 20:39:55|Data.logInfo:1077] gprmc: Heading parameter   : &head=       [gprmc.parm.heading]
+[INFO_|02/03 20:39:55|Data.logInfo:1077] gprmc: Altitude parameter  : &alt=        [gprmc.parm.altitude]
+[INFO_|02/03 20:39:55|Data.logInfo:1077] gprmc: Odometer parameter  : &odom=       [gprmc.parm.odometer]
+[INFO_|02/03 20:39:55|Data.logInfo:1077] gprmc: Address parameter   : &addr=       [gprmc.parm.address]
+[INFO_|02/03 20:39:55|Data.logInfo:1077] gprmc: Driver parameter    : &drv=        [gprmc.parm.driver]
+[INFO_|02/03 20:39:55|Data.logInfo:1077] gprmc: Message parameter   : &msg=        [gprmc.parm.message]
+[INFO_|02/03 20:39:55|Data.logInfo:1077] gprmc: -------------------------------------------------------------------
+[INFO_|02/03 20:39:55|Data.logInfo:1077] gprmc: [127.0.0.1] GET: http://localhost:8080/gprmc/Data id=123456789012345&code=0xF020&gprmc=$GPRMC,070718.000,A,2234.0228,N,11403.0764,E,0.00,,070909,,,A*73
+[INFO_|02/03 20:39:59|EventData.updateAddress:1874] [Account 'bayo'] PrivateLabel '*' does not define a ReverseGeocodeProvider
+[INFO_|02/08 23:34:07|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=15936, free=8828, used=7108
+[INFO_|02/08 23:34:08|BasicPrivateLabelLoader.printInfo:359] Not a 'Track/Service' servlet
+[INFO_|02/08 23:34:08|DCServerFactory._startupInit:1231] Loading only DCServer name: w-gprmc
+[WARN_|02/08 23:34:08|DCServerFactory._loadDCServerXML:583] DCServerConfig XML file not found: dcserver_w-gprmc.xml
+[INFO_|02/08 23:34:08|DCServerFactory._loadDCServerXML:590] DCServerConfig XML file not loaded: C:\Users\Bayo\Documents\apache-tomcat-7.0.19-windows-x86\apache-tomcat-7.0.19\webapps\gprmc\WEB-INF\dcservers.xml
+[INFO_|02/08 23:34:08|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/09 22:03:00|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=15936, free=8692, used=7244
+[INFO_|02/09 22:03:00|BasicPrivateLabelLoader.printInfo:359] Not a 'Track/Service' servlet
+[INFO_|02/09 22:03:01|DCServerFactory._startupInit:1231] Loading only DCServer name: w-gprmc
+[WARN_|02/09 22:03:01|DCServerFactory._loadDCServerXML:583] DCServerConfig XML file not found: dcserver_w-gprmc.xml
+[INFO_|02/09 22:03:01|DCServerFactory._loadDCServerXML:590] DCServerConfig XML file not loaded: C:\Users\Bayo\Documents\apache-tomcat-7.0.19-windows-x86\apache-tomcat-7.0.19\webapps\gprmc\WEB-INF\dcservers.xml
+[INFO_|02/09 22:03:01|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/10 13:36:19|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: dcs:w-gprmc
+[INFO_|02/10 13:36:19|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------

@@ -1,0 +1,31 @@
+
+Version 2.3.5 [2011/07/01]
+- NEW: Added support for a new "MobileLocationProvider" API for integrating cell
+       tower mobile location services.
+- NEW: Added support for OpenCellID.  See "private.xml" (or "config.conf") for 
+       configuration settings in the "MobileLocationProvider" section.
+- NEW: Added support for JSON formatted output in "events.war".
+- NEW: Added additional status codes.
+- NEW: Added "batteryVolts" column to EventData table.
+- NEW: Added "lastValidHeading" column to Device table.
+- NEW: EventData table column descriptions can now be localized.
+- CHG: Updated Turkish translations (special thanks to Aykut Kara).
+- CHG: Update to CellTower interface (added MobileLocationProvider interface)
+- FIX: Fixed IE issue with map "Find Address".
+
+-----------------------------------------------------------------------------------
+
+Project Home Page:
+    http://www.opengts.org
+
+Download Latest Version from SourceForge:
+    https://sourceforge.net/projects/opengts/
+
+Documentation (installation/configuration, tutorials, FAQ):
+    http://www.opengts.org/FAQ.html
+    http://www.opengts.org/documentation.html
+    http://www.geotelematic.com/documentation.html
+
+GTS Enterprise:
+    http://www.geotelematic.com/gts.html
+

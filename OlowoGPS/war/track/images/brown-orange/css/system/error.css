@@ -1,0 +1,154 @@
+/*
+
+#------------------------------------------------------------------------
+
+# Corporate - April 2010 (for Joomla 1.5)
+
+#
+
+# Copyright (C) 2007-2010 Gavick.com. All Rights Reserved.
+
+# License: Copyrighted Commercial Software
+
+# Website: http://www.gavick.com
+
+# Support: support@gavick.com   
+
+#------------------------------------------------------------------------ 
+
+# Based on T3 Framework
+
+#------------------------------------------------------------------------
+
+# Copyright (C) 2004-2009 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+
+# @license - GNU/GPL, http://www.gnu.org/copyleft/gpl.html
+
+# Author: J.O.O.M Solutions Co., Ltd
+
+# Websites: http://www.joomlart.com - http://www.joomlancers.com
+
+#------------------------------------------------------------------------
+
+*/
+
+
+
+/* Start Common Styles */
+
+* {
+
+	font-family: helvetica, arial, sans-serif;
+
+	font-size: 12px;
+
+	color: #979189;
+
+}
+
+
+
+html {
+
+	height: 100%;
+
+	margin-bottom: 1px;
+
+}
+
+
+
+body {
+
+	background:#f4f2ef;
+
+}
+
+
+
+h1 {
+
+	height:40px;
+
+	line-height:40px;
+
+	font-size:20px;
+
+	color:#fff;
+
+	background:#ec3200;
+
+	padding:0 20px;
+
+	text-shadow:1px 1px 3px #b02500;	
+
+	border:1px solid #b02500;
+
+	border-left:none;
+
+	border-top:none;
+
+}
+
+
+
+ul{
+
+	list-style-type:square;
+
+	padding:0 0 0 36px;
+
+}
+
+
+
+#outline {
+
+	width:480px;
+
+	margin:auto;
+		background: url('templates/gk_corporate2/images/header_red_bg.jpg') no-repeat 0 0;
+
+}
+
+#errorboxoutline {
+
+
+
+}
+
+#errorboxbody {
+
+	border:1px solid #c8c3be;
+
+	border-left:none;
+
+	border-top:none;
+
+	background:#fff;
+
+	padding:20px;
+
+	margin:10px 0 0 0;
+
+}
+
+#techinfo {
+
+	background:#bbb6b1;
+
+	padding:5px;
+
+}
+
+#techinfo p {
+
+	color:#fff;
+
+	margin:0;
+
+	padding:0;
+
+	font-weight:bold;
+
+}

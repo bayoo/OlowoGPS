@@ -1,0 +1,327 @@
+[INFO_|09/19 22:46:47|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=15936, free=8169, used=7767
+[INFO_|09/19 22:46:50|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|09/19 23:07:43|Track._doWork:1046] Login Account/User: demo/admin [From 127.0.0.1]
+[INFO_|09/19 23:07:43|Audit.userLoginOK:94] Login: Time=1316488063 Domain=default Account=demo User=admin IP=127.0.0.1
+[INFO_|10/09 20:19:47|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=15936, free=6666, used=9270
+[INFO_|10/09 20:19:50|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|10/09 21:47:23|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=15936, free=6641, used=9295
+[INFO_|10/09 21:47:25|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|10/17 18:48:41|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=15936, free=6662, used=9274
+[INFO_|10/17 18:48:44|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|10/17 18:57:33|DBConnection.closeAllConnections:315] Closed all open DBConnections: 1
+[INFO_|10/17 18:57:33|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|10/17 18:57:33|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|10/17 18:58:23|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=23608, free=11590, used=12018
+[INFO_|10/17 18:58:25|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|10/17 19:00:23|Track._doWork:1046] Login Account/User: demo/admin [From 127.0.0.1]
+[INFO_|10/17 19:00:23|Audit.userLoginOK:94] Login: Time=1318892423 Domain=default Account=demo User=admin IP=127.0.0.1
+[INFO_|01/30 08:31:06|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=15936, free=8211, used=7725
+[INFO_|01/30 08:31:09|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|01/30 08:31:44|Track._doWork:1046] Login Account/User: demo/admin [From 127.0.0.1]
+[INFO_|01/30 08:31:44|Audit.userLoginOK:94] Login: Time=1327930304 Domain=default Account=demo User=admin IP=127.0.0.1
+[INFO_|02/01 00:16:51|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=15936, free=8213, used=7723
+[INFO_|02/01 00:16:56|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/01 00:25:35|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/01 00:25:35|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/01 00:26:54|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=19772, free=8037, used=11735
+[INFO_|02/01 00:26:57|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/01 00:47:41|DBConnection.closeAllConnections:315] Closed all open DBConnections: 1
+[INFO_|02/01 00:47:41|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/01 00:47:41|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/01 00:48:01|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=21164, free=8574, used=12590
+[INFO_|02/01 00:48:05|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/01 00:51:42|DBConnection.closeAllConnections:315] Closed all open DBConnections: 1
+[INFO_|02/01 00:51:42|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/01 00:51:42|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/01 00:51:43|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=25184, free=9408, used=15776
+[INFO_|02/01 00:51:45|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/01 01:06:44|DBConnection.closeAllConnections:315] Closed all open DBConnections: 1
+[INFO_|02/01 01:06:44|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/01 01:06:44|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/01 01:06:44|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=27912, free=8343, used=19569
+[INFO_|02/01 01:06:47|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/01 01:09:44|DBConnection.closeAllConnections:315] Closed all open DBConnections: 1
+[INFO_|02/01 01:09:44|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/01 01:09:44|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/01 01:09:45|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=27912, free=14051, used=13861
+[INFO_|02/01 01:09:48|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/01 01:13:47|DBConnection.closeAllConnections:315] Closed all open DBConnections: 1
+[INFO_|02/01 01:13:47|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/01 01:13:47|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/01 01:14:06|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=27912, free=11695, used=16217
+[INFO_|02/01 01:14:10|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/01 01:14:41|Track._doWork:1046] Login Account/User: demo/admin [From 127.0.0.1]
+[INFO_|02/01 01:14:41|Audit.userLoginOK:94] Login: Time=1328076881 Domain=default Account=demo User=admin IP=127.0.0.1
+[INFO_|02/01 01:19:35|DBConnection.closeAllConnections:315] Closed all open DBConnections: 6
+[INFO_|02/01 01:19:35|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/01 01:19:35|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/01 01:19:36|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=27912, free=10701, used=17211
+[INFO_|02/01 01:19:39|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/01 01:22:32|DBConnection.closeAllConnections:315] Closed all open DBConnections: 2
+[INFO_|02/01 01:22:32|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/01 01:22:32|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/01 01:22:54|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=29828, free=13323, used=16505
+[INFO_|02/01 01:22:59|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/01 01:23:35|Track._doWork:1046] Login Account/User: demo/admin [From 127.0.0.1]
+[INFO_|02/01 01:23:35|Audit.userLoginOK:94] Login: Time=1328077415 Domain=default Account=demo User=admin IP=127.0.0.1
+[INFO_|02/01 01:26:42|DBConnection.closeAllConnections:315] Closed all open DBConnections: 3
+[INFO_|02/01 01:26:42|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/01 01:26:42|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/01 01:27:02|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=29828, free=14726, used=15102
+[INFO_|02/01 01:27:05|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/01 01:27:30|Track._doWork:1046] Login Account/User: demo/admin [From 127.0.0.1]
+[INFO_|02/01 01:27:30|Audit.userLoginOK:94] Login: Time=1328077650 Domain=default Account=demo User=admin IP=127.0.0.1
+[INFO_|02/01 18:43:43|Track._doWork:1046] Login Account/User: demo/admin [From 127.0.0.1]
+[INFO_|02/01 18:43:43|Audit.userLoginOK:94] Login: Time=1328139823 Domain=default Account=demo User=admin IP=127.0.0.1
+[INFO_|02/01 18:48:21|DBConnection.closeAllConnections:315] Closed all open DBConnections: 3
+[INFO_|02/01 18:48:21|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/01 18:48:21|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/01 18:48:43|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=29828, free=18317, used=11511
+[INFO_|02/01 18:48:46|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/01 18:49:21|Track._doWork:1046] Login Account/User: demo/admin [From 127.0.0.1]
+[INFO_|02/01 18:49:21|Audit.userLoginOK:94] Login: Time=1328140161 Domain=default Account=demo User=admin IP=127.0.0.1
+[INFO_|02/01 18:57:12|DBConnection.closeAllConnections:315] Closed all open DBConnections: 4
+[INFO_|02/01 18:57:12|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/01 18:57:12|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/01 18:57:35|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=29828, free=12408, used=17420
+[INFO_|02/01 18:57:38|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/01 18:57:59|Track._doWork:1046] Login Account/User: demo/admin [From 127.0.0.1]
+[INFO_|02/01 18:57:59|Audit.userLoginOK:94] Login: Time=1328140679 Domain=default Account=demo User=admin IP=127.0.0.1
+[INFO_|02/01 19:00:22|Account.GetDemoAccountDeviceIDs:182] Demo Devices: demo|demo2
+[INFO_|02/01 19:00:22|Account.GetDemoDeviceDateRange:206] Demo Device: demo/demo2 Date Rage 2010/03/12,2010/03/12
+[WARN_|02/01 19:00:22|ReportSpreadsheet.GetExcelSpreadsheetClass:54] Excel interface not supported: java.lang.ClassNotFoundException: org.opengts.util.ExcelTools$Spreadsheet
+[INFO_|02/01 19:00:26|ReportLayout.setReportPresentationClassName:162] Installing custom ReportPresentation class: org.opengts.war.report.presentation.ReportTable
+[INFO_|02/01 20:26:30|DBConnection.closeAllConnections:315] Closed all open DBConnections: 8
+[INFO_|02/01 20:26:30|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/01 20:26:30|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/01 20:26:48|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=30812, free=15590, used=15222
+[INFO_|02/01 20:26:51|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/01 20:27:09|Track._doWork:1046] Login Account/User: demo/admin [From 127.0.0.1]
+[INFO_|02/01 20:27:09|Audit.userLoginOK:94] Login: Time=1328146029 Domain=default Account=demo User=admin IP=127.0.0.1
+[INFO_|02/01 20:37:45|DBConnection.closeAllConnections:315] Closed all open DBConnections: 4
+[INFO_|02/01 20:37:45|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/01 20:37:45|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/01 20:38:39|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=30812, free=18927, used=11885
+[INFO_|02/01 20:38:42|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/01 22:11:44|DBConnection.closeAllConnections:315] Closed all open DBConnections: 1
+[INFO_|02/01 22:11:44|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/01 22:11:44|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/01 22:12:02|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=30812, free=11169, used=19643
+[INFO_|02/01 22:12:05|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/01 22:16:03|DBConnection.closeAllConnections:315] Closed all open DBConnections: 1
+[INFO_|02/01 22:16:03|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/01 22:16:03|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/01 22:17:13|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=30812, free=16996, used=13816
+[INFO_|02/01 22:17:17|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/01 22:22:20|DBConnection.closeAllConnections:315] Closed all open DBConnections: 1
+[INFO_|02/01 22:22:20|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/01 22:22:20|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/01 22:22:39|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=30812, free=20139, used=10673
+[INFO_|02/01 22:22:42|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/01 22:47:28|DBConnection.closeAllConnections:315] Closed all open DBConnections: 3
+[INFO_|02/01 22:47:28|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/01 22:47:28|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/01 22:48:08|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=30812, free=11991, used=18821
+[INFO_|02/01 22:48:11|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/01 22:52:24|DBConnection.closeAllConnections:315] Closed all open DBConnections: 1
+[INFO_|02/01 22:52:24|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/01 22:52:24|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/01 22:52:44|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=30812, free=9196, used=21616
+[INFO_|02/01 22:52:47|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/01 23:22:25|Track._doWork:1046] Login Account/User: demo/admin [From 127.0.0.1]
+[INFO_|02/01 23:22:25|Audit.userLoginOK:94] Login: Time=1328156545 Domain=default Account=demo User=admin IP=127.0.0.1
+[INFO_|02/01 23:30:19|DBConnection.closeAllConnections:315] Closed all open DBConnections: 4
+[INFO_|02/01 23:30:19|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/01 23:30:19|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/01 23:30:38|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=30812, free=10026, used=20786
+[INFO_|02/01 23:30:41|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/01 23:31:14|Track._doWork:1046] Login Account/User: demo/admin [From 127.0.0.1]
+[INFO_|02/01 23:31:14|Audit.userLoginOK:94] Login: Time=1328157074 Domain=default Account=demo User=admin IP=127.0.0.1
+[INFO_|02/01 23:50:51|DBConnection.closeAllConnections:315] Closed all open DBConnections: 2
+[INFO_|02/01 23:50:51|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/01 23:50:51|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/01 23:51:12|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=30812, free=13953, used=16859
+[INFO_|02/01 23:51:15|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/03 00:01:30|Track._doWork:1046] Login Account/User: demo/admin [From 127.0.0.1]
+[INFO_|02/03 00:01:31|Audit.userLoginOK:94] Login: Time=1328245291 Domain=default Account=demo User=admin IP=127.0.0.1
+[INFO_|02/03 01:16:14|DBConnection.closeAllConnections:315] Closed all open DBConnections: 2
+[INFO_|02/03 01:16:14|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/03 01:16:14|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/03 01:17:35|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=30812, free=16209, used=14603
+[INFO_|02/03 01:17:40|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/03 01:34:37|DBConnection.closeAllConnections:315] Closed all open DBConnections: 1
+[INFO_|02/03 01:34:37|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/03 01:34:37|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/03 01:35:04|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=30812, free=19039, used=11773
+[INFO_|02/03 01:35:07|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/03 01:44:56|Track._doWork:1046] Login Account/User: demo/admin [From 127.0.0.1]
+[INFO_|02/03 01:44:56|Audit.userLoginOK:94] Login: Time=1328251496 Domain=default Account=demo User=admin IP=127.0.0.1
+[INFO_|02/03 20:42:19|Track._doWork:1044] Login SysAdmin: sysadmin/admin [From 127.0.0.1]
+[INFO_|02/03 20:42:19|Audit.userLoginOK:94] Login: Time=1328319739 Domain=default Account=sysadmin User=admin IP=127.0.0.1
+[WARN_|02/03 20:42:44|ReportSpreadsheet.GetExcelSpreadsheetClass:54] Excel interface not supported: java.lang.ClassNotFoundException: org.opengts.util.ExcelTools$Spreadsheet
+[ERROR|02/03 20:42:51|ReportDisplay.writePage:470] Device not specified: EventDetail
+[INFO_|02/03 20:43:43|Track._doWork:1046] Login Account/User: demo/admin [From 127.0.0.1]
+[INFO_|02/03 20:43:43|Audit.userLoginOK:94] Login: Time=1328319823 Domain=default Account=demo User=admin IP=127.0.0.1
+[INFO_|02/03 20:44:05|Account.GetDemoAccountDeviceIDs:182] Demo Devices: demo|demo2
+[INFO_|02/03 20:44:13|ReportLayout.setReportPresentationClassName:162] Installing custom ReportPresentation class: org.opengts.war.report.presentation.ReportTable
+[INFO_|02/04 14:00:41|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/04 14:00:42|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/04 14:01:53|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=30812, free=12519, used=18293
+[INFO_|02/04 14:01:59|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/08 23:34:09|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=15936, free=6655, used=9281
+[INFO_|02/08 23:34:12|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/09 22:03:01|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=15936, free=6533, used=9403
+[INFO_|02/09 22:03:03|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/10 12:58:17|Track._doWork:1044] Login SysAdmin: sysadmin/admin [From 69.123.69.0]
+[INFO_|02/10 12:58:17|Audit.userLoginOK:94] Login: Time=1328896697 Domain=default Account=sysadmin User=admin IP=69.123.69.0
+[INFO_|02/10 12:58:38|SysAdminAccounts$1.countSession:250] Logged-in User: sysadmin,admin
+[INFO_|02/10 12:58:59|Track._doWork:1046] Login Account/User: demo/admin [From 69.123.69.0]
+[INFO_|02/10 12:58:59|Audit.userLoginOK:94] Login: Time=1328896739 Domain=default Account=demo User=admin IP=69.123.69.0
+[INFO_|02/10 13:36:28|DBConnection.closeAllConnections:315] Closed all open DBConnections: 7
+[INFO_|02/10 13:36:28|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/10 13:36:28|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/10 13:37:17|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=26288, free=10032, used=16256
+[INFO_|02/10 13:37:19|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/10 13:38:09|Track._doWork:1046] Login Account/User: demo/admin [From 69.123.69.0]
+[INFO_|02/10 13:38:09|Audit.userLoginOK:94] Login: Time=1328899089 Domain=default Account=demo User=admin IP=69.123.69.0
+[WARN_|02/10 13:38:24|DeviceInfo.writePage:1160] Deleting Device: demo,tracktest1
+[WARN_|02/10 13:38:35|RequestProperties.getSelectedDevice:1004] Device not found: tracktest1
+[INFO_|02/10 13:58:40|Account.GetDemoAccountDeviceIDs:182] Demo Devices: demo|demo2
+[WARN_|02/10 13:58:40|ReportSpreadsheet.GetExcelSpreadsheetClass:54] Excel interface not supported: java.lang.ClassNotFoundException: org.opengts.util.ExcelTools$Spreadsheet
+[INFO_|02/10 13:58:48|ReportLayout.setReportPresentationClassName:162] Installing custom ReportPresentation class: org.opengts.war.report.presentation.ReportTable
+[INFO_|02/10 16:56:21|Track._doWork:1046] Login Account/User: demo/admin [From 69.123.69.0]
+[INFO_|02/10 16:56:21|Audit.userLoginOK:94] Login: Time=1328910981 Domain=default Account=demo User=admin IP=69.123.69.0
+[INFO_|02/10 21:32:32|Track._doWork:1046] Login Account/User: demo/admin [From 69.123.69.0]
+[INFO_|02/10 21:32:32|Audit.userLoginOK:94] Login: Time=1328927552 Domain=default Account=demo User=admin IP=69.123.69.0
+[INFO_|02/10 21:32:36|Account.GetDemoAccountDeviceIDs:182] Demo Devices: demo|demo2
+[INFO_|02/10 21:32:36|Account.GetDemoDeviceDateRange:206] Demo Device: demo/demo Date Rage 2010/03/12,2010/03/12
+[INFO_|02/10 21:33:02|Account.GetDemoAccountDeviceIDs:182] Demo Devices: demo|demo2
+[INFO_|02/13 08:24:50|Track._doWork:1046] Login Account/User: demo/admin [From 69.123.69.0]
+[INFO_|02/13 08:24:50|Audit.userLoginOK:94] Login: Time=1329139490 Domain=default Account=demo User=admin IP=69.123.69.0
+[INFO_|02/13 08:24:53|Account.GetDemoAccountDeviceIDs:182] Demo Devices: demo|demo2
+[INFO_|02/13 08:24:53|Account.GetDemoDeviceDateRange:206] Demo Device: demo/demo Date Rage 2010/03/12,2010/03/12
+[INFO_|02/13 12:55:53|Track._doWork:1046] Login Account/User: demo/admin [From 69.123.69.0]
+[INFO_|02/13 12:55:53|Audit.userLoginOK:94] Login: Time=1329155753 Domain=default Account=demo User=admin IP=69.123.69.0
+[INFO_|02/13 12:55:57|Account.GetDemoAccountDeviceIDs:182] Demo Devices: demo|demo2
+[INFO_|02/13 12:55:57|Account.GetDemoDeviceDateRange:206] Demo Device: demo/demo Date Rage 2010/03/12,2010/03/12
+[INFO_|02/14 01:13:59|Track._doWork:1046] Login Account/User: demo/admin [From 69.123.69.0]
+[INFO_|02/14 01:13:59|Audit.userLoginOK:94] Login: Time=1329200039 Domain=default Account=demo User=admin IP=69.123.69.0
+[INFO_|02/14 01:16:19|Account.GetDemoAccountDeviceIDs:182] Demo Devices: demo|demo2
+[INFO_|02/16 09:16:46|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=15936, free=8174, used=7762
+[INFO_|02/16 09:16:49|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/16 09:19:04|Track._doWork:1046] Login Account/User: demo/admin [From 69.123.69.0]
+[INFO_|02/16 09:19:04|Audit.userLoginOK:94] Login: Time=1329401944 Domain=default Account=demo User=admin IP=69.123.69.0
+[INFO_|02/16 09:29:36|Account.GetDemoAccountDeviceIDs:182] Demo Devices: demo|demo2
+[WARN_|02/16 09:29:36|ReportSpreadsheet.GetExcelSpreadsheetClass:54] Excel interface not supported: java.lang.ClassNotFoundException: org.opengts.util.ExcelTools$Spreadsheet
+[INFO_|02/16 09:29:43|ReportLayout.setReportPresentationClassName:162] Installing custom ReportPresentation class: org.opengts.war.report.presentation.ReportTable
+[INFO_|02/16 10:42:48|Track._doWork:1046] Login Account/User: demo/admin [From 69.123.69.0]
+[INFO_|02/16 10:42:48|Audit.userLoginOK:94] Login: Time=1329406968 Domain=default Account=demo User=admin IP=69.123.69.0
+[INFO_|02/16 11:41:46|Track._doWork:1046] Login Account/User: demo/admin [From 69.123.69.0]
+[INFO_|02/16 11:41:46|Audit.userLoginOK:94] Login: Time=1329410506 Domain=default Account=demo User=admin IP=69.123.69.0
+[INFO_|02/16 17:42:33|Track._doWork:1046] Login Account/User: demo/admin [From 69.123.69.0]
+[INFO_|02/16 17:42:33|Audit.userLoginOK:94] Login: Time=1329432153 Domain=default Account=demo User=admin IP=69.123.69.0
+[INFO_|02/16 18:46:43|Track._doWork:1046] Login Account/User: demo/admin [From 69.123.69.0]
+[INFO_|02/16 18:46:43|Audit.userLoginOK:94] Login: Time=1329436003 Domain=default Account=demo User=admin IP=69.123.69.0
+[INFO_|02/16 19:38:31|Track._doWork:1046] Login Account/User: demo/admin [From 69.123.69.0]
+[INFO_|02/16 19:38:31|Audit.userLoginOK:94] Login: Time=1329439111 Domain=default Account=demo User=admin IP=69.123.69.0
+[INFO_|02/16 21:03:56|Track._doWork:1046] Login Account/User: demo/admin [From 69.123.69.0]
+[INFO_|02/16 21:03:56|Audit.userLoginOK:94] Login: Time=1329444236 Domain=default Account=demo User=admin IP=69.123.69.0
+[INFO_|02/16 23:30:46|Track._doWork:1046] Login Account/User: demo/admin [From 69.123.69.0]
+[INFO_|02/16 23:30:46|Audit.userLoginOK:94] Login: Time=1329453046 Domain=default Account=demo User=admin IP=69.123.69.0
+[INFO_|02/16 23:31:14|Account.GetDemoAccountDeviceIDs:182] Demo Devices: demo|demo2
+[INFO_|02/21 00:19:46|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=15936, free=8172, used=7764
+[INFO_|02/21 00:19:53|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/22 13:59:22|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=15936, free=8191, used=7745
+[INFO_|02/22 13:59:25|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/22 14:06:34|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/22 14:06:34|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/22 14:07:36|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=19816, free=8767, used=11049
+[INFO_|02/22 14:07:39|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/22 14:14:35|DBConnection.closeAllConnections:315] Closed all open DBConnections: 1
+[INFO_|02/22 14:14:35|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/22 14:14:35|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/22 14:15:05|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=21280, free=6665, used=14615
+[INFO_|02/22 14:15:08|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/22 15:04:32|DBConnection.closeAllConnections:315] Closed all open DBConnections: 1
+[INFO_|02/22 15:04:32|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/22 15:04:32|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/22 15:05:15|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=25072, free=7839, used=17233
+[INFO_|02/22 15:05:17|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/22 15:16:19|DBConnection.closeAllConnections:315] Closed all open DBConnections: 1
+[INFO_|02/22 15:16:19|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/22 15:16:19|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/22 15:16:42|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=28016, free=7245, used=20771
+[INFO_|02/22 15:16:45|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/22 15:38:26|DBConnection.closeAllConnections:315] Closed all open DBConnections: 2
+[INFO_|02/22 15:38:26|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/22 15:38:26|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/22 15:38:47|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=28016, free=6730, used=21286
+[INFO_|02/22 15:38:50|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/22 16:23:15|DBConnection.closeAllConnections:315] Closed all open DBConnections: 1
+[INFO_|02/22 16:23:15|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/22 16:23:15|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/22 16:23:49|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=28016, free=13700, used=14316
+[INFO_|02/22 16:23:53|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/22 16:55:32|DBConnection.closeAllConnections:315] Closed all open DBConnections: 1
+[INFO_|02/22 16:55:32|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/22 16:55:32|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/22 16:56:00|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=28016, free=11584, used=16432
+[INFO_|02/22 16:56:02|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/22 17:01:07|DBConnection.closeAllConnections:315] Closed all open DBConnections: 1
+[INFO_|02/22 17:01:07|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/22 17:01:07|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/22 17:01:43|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=28016, free=9279, used=18737
+[INFO_|02/22 17:01:46|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/22 17:02:31|Track._doWork:1046] Login Account/User: demo/admin [From 69.123.69.0]
+[INFO_|02/22 17:02:32|Audit.userLoginOK:94] Login: Time=1329948152 Domain=default Account=demo User=admin IP=69.123.69.0
+[INFO_|02/22 17:17:37|DBConnection.closeAllConnections:315] Closed all open DBConnections: 2
+[INFO_|02/22 17:17:37|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/22 17:17:37|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/22 17:18:10|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=29084, free=14463, used=14621
+[INFO_|02/22 17:18:13|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/22 17:18:22|Track._doWork:1046] Login Account/User: demo/admin [From 69.123.69.0]
+[INFO_|02/22 17:18:22|Audit.userLoginOK:94] Login: Time=1329949102 Domain=default Account=demo User=admin IP=69.123.69.0
+[INFO_|02/22 17:22:55|DBConnection.closeAllConnections:315] Closed all open DBConnections: 1
+[INFO_|02/22 17:22:55|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/22 17:22:55|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/22 17:23:15|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=29084, free=14011, used=15073
+[INFO_|02/22 17:23:17|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/22 17:23:30|Track._doWork:1046] Login Account/User: demo/admin [From 69.123.69.0]
+[INFO_|02/22 17:23:30|Audit.userLoginOK:94] Login: Time=1329949410 Domain=default Account=demo User=admin IP=69.123.69.0
+[INFO_|02/22 18:00:06|DBConnection.closeAllConnections:315] Closed all open DBConnections: 1
+[INFO_|02/22 18:00:06|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/22 18:00:06|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/22 18:00:37|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=29480, free=8689, used=20791
+[INFO_|02/22 18:00:40|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/22 18:00:49|Track._doWork:1046] Login Account/User: demo/admin [From 69.123.69.0]
+[INFO_|02/22 18:00:49|Audit.userLoginOK:94] Login: Time=1329951649 Domain=default Account=demo User=admin IP=69.123.69.0
+[INFO_|02/22 18:04:11|DBConnection.closeAllConnections:315] Closed all open DBConnections: 2
+[INFO_|02/22 18:04:11|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/22 18:04:11|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/22 18:04:13|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=29480, free=15855, used=13625
+[INFO_|02/22 18:04:16|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/22 18:10:59|DBConnection.closeAllConnections:315] Closed all open DBConnections: 3
+[INFO_|02/22 18:11:00|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/22 18:11:00|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/22 18:14:13|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=29480, free=17371, used=12109
+[INFO_|02/22 18:14:16|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/22 18:15:56|Track._doWork:1046] Login Account/User: demo/admin [From 69.123.69.0]
+[INFO_|02/22 18:15:56|Audit.userLoginOK:94] Login: Time=1329952556 Domain=default Account=demo User=admin IP=69.123.69.0
+[INFO_|02/22 18:25:16|DBConnection.closeAllConnections:315] Closed all open DBConnections: 2
+[INFO_|02/22 18:25:16|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/22 18:25:16|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/22 18:25:57|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=29480, free=20297, used=9183
+[INFO_|02/22 18:26:00|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/22 18:26:19|Track._doWork:1046] Login Account/User: demo/admin [From 69.123.69.0]
+[INFO_|02/22 18:26:19|Audit.userLoginOK:94] Login: Time=1329953179 Domain=default Account=demo User=admin IP=69.123.69.0
+[INFO_|02/22 19:54:06|DBConnection.closeAllConnections:315] Closed all open DBConnections: 2
+[INFO_|02/22 19:54:06|RTConfigContextListener.contextDestroyed:209] ... Servlet Context destroyed: TrackWar
+[INFO_|02/22 19:54:06|RTConfigContextListener.contextDestroyed:210] -----------------------------------------------
+[INFO_|02/22 19:54:31|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=29480, free=16323, used=13157
+[INFO_|02/22 19:54:35|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/22 19:54:47|Track._doWork:1046] Login Account/User: demo/admin [From 69.123.69.0]
+[INFO_|02/22 19:54:47|Audit.userLoginOK:94] Login: Time=1329958487 Domain=default Account=demo User=admin IP=69.123.69.0
+[INFO_|02/23 09:25:57|OSTools.printMemoryUsage:230] Memory-K: max=253440, total=15936, free=8166, used=7770
+[INFO_|02/23 09:26:01|RTConfigContextListener.contextInitialized:187] java.awt.headless=false
+[INFO_|02/23 09:32:13|Track._doWork:1046] Login Account/User: demo/admin [From 69.123.69.0]
+[INFO_|02/23 09:32:13|Audit.userLoginOK:94] Login: Time=1330007533 Domain=default Account=demo User=admin IP=69.123.69.0

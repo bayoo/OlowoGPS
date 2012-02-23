@@ -1,0 +1,129 @@
+/*
+#------------------------------------------------------------------------
+# Corporate - April 2010 (for Joomla 1.5)
+#
+# Copyright (C) 2007-2010 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com   
+#------------------------------------------------------------------------ 
+# Based on T3 Framework
+#------------------------------------------------------------------------
+# Copyright (C) 2004-2009 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+# @license - GNU/GPL, http://www.gnu.org/copyleft/gpl.html
+# Author: J.O.O.M Solutions Co., Ltd
+# Websites: http://www.joomlart.com - http://www.joomlancers.com
+#------------------------------------------------------------------------
+*/
+
+/*
+ * file: template.css
+ */
+ 
+a:hover,
+a:active,
+a:focus { color:#718500; }
+#gk-mainbody a { color:#718500; } 
+#gk-header-block { color:#C4D94C; background:url('../images/style2/header_green_bg.jpg') no-repeat 0 0; }
+#gk-header-highlight { background:url('../images/style2/header_green_bar.jpg') repeat-y 0 0; }
+#gk-header-block a.readon { background:#718500; }
+#gk-header-block a.readon:hover { background:#aac900; }
+#gk-header-block a.readon.header_art { color:#aac900; }
+#gk-header-block a.readon.header_art:hover { background:#718500; }
+#gk-header-block li { border-top:1px solid #C4D94C; }
+#gk-header-block a { color:#c9d862; }
+.moduletable_menu a { color: #718500 }
+/* color */
+.moduletable.color { background:transparent url('../images/style2/header_green_bg.jpg') no-repeat 0 0; border:1px solid #718500; }
+.moduletable.color h3 { background:#718500; }
+.moduletable.color ul li { border-top:1px solid #9FB334; }
+
+.moduletable.color ul li ul { border-left:1px dotted #718500; }
+.moduletable.color a.readon { color: #fff!important; background:#aac900; }
+.moduletable.color a.readon:hover, 
+.moduletable.color a.readon:active, 
+.moduletable.color a.readon:focus { background:#718500; }
+.moduletable.color .button { background:#718500; border:1px solid #aac900!important; border-top:none!important; border-left:none!important; }
+.moduletable.color .button:hover, 
+.moduletable.color .button:focus{ background:#718500!important;}
+
+/*
+ * file: gk_stuff.css
+ */
+
+.nsp_art h4.nsp_header a { color:#718500 }
+div.nsp_links ul li h4,
+div.nsp_links ul li h4 a { color:#718500; }
+.gk_is_wrapper-style1 { background:transparent url('../images/style2/header_green_bg.jpg') no-repeat 0 0; }
+.gk_is_wrapper-style1 .gk_is_preloader { background:#aac900 url('../images/style2/header_green_bg.jpg') no-repeat 0 0; }
+.gk_is_text_item h4 a:hover,
+.gk_is_art h4 a:hover { color:#aac900; }
+.gk_is_art a.readon { color:#aac900; }
+.gk_is_art a.readon:hover { background:#718500;  }
+.gk_is_list li { border-top:1px solid #C4D94C!important; color:#D5E868; }
+#gk-container ul.gk_tab_ul-style1 li { background:#aac900; }
+#gk-container ul.gk_tab_ul-style1 li.active,
+#gk-container ul.gk_tab_ul-style1 li:hover { background:#718500;}
+
+/*
+ * file: joomla.css
+ */
+ 
+a.readon:hover, a.readon:active, a.readon:focus { background:#718500; }
+.adminform button:hover, #adminForm button:hover,
+.adminform button:focus, #adminForm button:focus,
+.button:hover, .button:focus{ background:#718500; }
+.tool-title{background:#718500;}
+ 
+/*
+ * file: typo.css
+ */
+
+pre, 
+.gk_code1{border-left:5px solid #aac900!important}
+.gk_code2{border-top:5px solid #aac900; border-bottom:5px solid #aac900}
+.gk_code3{border-top:1px solid #aac900; border-bottom:1px solid #aac900}
+blockquote div.gk_blockquote1{background:transparent url(../images/style2/typography/open1.png) no-repeat left bottom}
+blockquote div.gk_blockquote1 div{background:transparent url(../images/style2/typography/close1.png) no-repeat right top}
+blockquote div.gk_blockquote2{background:transparent url(../images/style2/typography/open1.png) no-repeat left top}
+blockquote div.gk_blockquote2 div{background:transparent url(../images/style2/typography/close1.png) no-repeat right top}
+blockquote div.gk_blockquote3{background:transparent url(../images/style2/typography/open2.png) no-repeat left bottom}
+blockquote div.gk_blockquote3 div{background:transparent url(../images/style2/typography/close2.png) no-repeat right top}
+blockquote div.gk_blockquote4{background:transparent url(../images/style2/typography/open2.png) no-repeat left top}
+blockquote div.gk_blockquote4 div{background:transparent url(../images/style2/typography/close2.png) no-repeat right top}
+.gk_highlight-2{background:#aac900; color:#fff}
+.gk_highlight-3{background:#718500; color:#fff}
+span.gk_clear{border-top:1px solid #aac900; border-bottom:1px solid #aac900; color:#aac900}
+span.gk_clear-1{border-top:1px solid #718500; border-bottom:1px solid #718500; color:#718500}
+span.gk_color{color:#aac900}
+span.gk_color-1{color:#718500}
+span.gk_color-2{color:#aac900; border-left:2px solid #aac900}
+span.gk_color-4{color:#aac900; background:#f4fbff}
+span.gk_color-5{color:#fff; background:#718500}
+ul.gk_circle1{list-style-image:url(../images/style2/typography/bullet3ul.png)!important}
+ul.gk_circle2{list-style-type:circle}
+ul.gk_bullet1{list-style-image:url(../images/style2/typography/bullet_ol_1_dark.png)!important}
+ul.gk_bullet2{list-style-image:url(../images/style2/typography/bullet1ul.png)!important}
+ul.gk_bullet3{list-style-image:url(../images/style2/typography/bullet2ul.png)!important}
+ul.gk_bullet4{list-style-image:url(../images/style2/typography/bullet_ol_1_color.png)!important}
+ul.gk_square1{list-style-type:square}
+ul.gk_square2{list-style-image:url(../images/style2/typography/bullet_squ1_dark.png)!important}
+ul.gk_square3{list-style-image:url(../images/style2/typography/bullet_squ1_color.png)!important}
+div.gk_number1 span{background:transparent url(../images/style2/typography/bullet_ol_2.png) no-repeat center center; color:#fff}
+div.gk_number2 span{background:transparent url(../images/style2/typography/bullet_ol_2_color.png) no-repeat center center; color:#fff}
+
+/*
+ * file: k2.css
+ */
+
+div.itemHeader h2.itemTitle span sup {color:#718500;} /* "Featured" presented in superscript */
+div.itemComments ul.itemCommentsList li span.commentAuthorName {color:#718500;}
+div.itemCommentsForm form input.button:hover {background: #718500}
+div.itemCommentsForm form span#formLog {color:#718500;}
+div.catItemHeader h3.catItemTitle span sup {color:#718500;} /* superscript */	
+div.userItemHeader h3.userItemTitle span sup {color:#718500;} /* "Unpublished" presented in superscript */
+div.k2LatestCommentsBlock ul li > a {color: #718500; }
+div.k2ArchivesBlock ul li a {color: #718500}
+table.calendar tr td.calendarTodayLinked {background:#718500;}
+div.k2CategoriesListBlock ul li a {color: #718500}
+div.k2TagCloudBlock a:hover {background:#718500;}

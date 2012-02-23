@@ -1,0 +1,129 @@
+/*
+#------------------------------------------------------------------------
+# Corporate - April 2010 (for Joomla 1.5)
+#
+# Copyright (C) 2007-2010 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com   
+#------------------------------------------------------------------------ 
+# Based on T3 Framework
+#------------------------------------------------------------------------
+# Copyright (C) 2004-2009 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+# @license - GNU/GPL, http://www.gnu.org/copyleft/gpl.html
+# Author: J.O.O.M Solutions Co., Ltd
+# Websites: http://www.joomlart.com - http://www.joomlancers.com
+#------------------------------------------------------------------------
+*/
+
+/*
+ * file: template.css
+ */
+ 
+a:hover,
+a:active,
+a:focus { color:#115bb2; }
+#gk-mainbody a { color:#115bb2; } 
+#gk-header-block { color:#78A9E3; background:url('../images/style3/header_blue_bg.jpg') no-repeat 0 0; }
+#gk-header-highlight { background:url('../images/style3/header_blue_bar.jpg') repeat-y 0 0; }
+#gk-header-block a.readon { background:#115bb2; }
+#gk-header-block a.readon:hover { background:#57a8f0; }
+#gk-header-block a.readon.header_art { color:#57a8f0; }
+#gk-header-block a.readon.header_art:hover { background:#115bb2; }
+#gk-header-block li { border-top:1px solid #78A9E3; }
+#gk-header-block a { color:#A5C8F2; }
+.moduletable_menu a { color: #115bb2 }
+/* color */
+.moduletable.color { background:transparent url('../images/style3/header_blue_bg.jpg') no-repeat 0 0; border:1px solid #115bb2; }
+.moduletable.color h3 { background:#115bb2; }
+.moduletable.color ul li { border-top:1px solid #5894DB; }
+
+.moduletable.color ul li ul { border-left:1px dotted #5894DB; }
+.moduletable.color a.readon { color: #fff!important; background:#57a8f0; }
+.moduletable.color a.readon:hover, 
+.moduletable.color a.readon:active, 
+.moduletable.color a.readon:focus { background:#115bb2; }
+.moduletable.color .button { background:#115bb2; border:1px solid #57a8f0!important; border-top:none!important; border-left:none!important; }
+.moduletable.color .button:hover, 
+.moduletable.color .button:focus{ background:#115bb2!important;}
+
+/*
+ * file: gk_stuff.css
+ */
+
+.nsp_art h4.nsp_header a { color:#115bb2 }
+div.nsp_links ul li h4,
+div.nsp_links ul li h4 a { color:#115bb2; }
+.gk_is_wrapper-style1 { background:transparent url('../images/style3/header_blue_bg.jpg') no-repeat 0 0; }
+.gk_is_wrapper-style1 .gk_is_preloader { background:#57a8f0 url('../images/style3/header_blue_bg.jpg') no-repeat 0 0; }
+.gk_is_text_item h4 a:hover,
+.gk_is_art h4 a:hover { color:#57a8f0; }
+.gk_is_art a.readon { color:#57a8f0; }
+.gk_is_art a.readon:hover { background:#115bb2;  }
+.gk_is_list li { border-top:1px solid #78A9E3!important; color:#A5C8F2; }
+#gk-container ul.gk_tab_ul-style1 li { background:#57a8f0; }
+#gk-container ul.gk_tab_ul-style1 li.active,
+#gk-container ul.gk_tab_ul-style1 li:hover { background:#115bb2;}
+
+/*
+ * file: joomla.css
+ */
+ 
+a.readon:hover, a.readon:active, a.readon:focus { background:#115bb2; }
+.adminform button:hover, #adminForm button:hover,
+.adminform button:focus, #adminForm button:focus,
+.button:hover, .button:focus{ background:#115bb2; }
+.tool-title{background:#115bb2;}
+ 
+/*
+ * file: typo.css
+ */
+
+pre, 
+.gk_code1{border-left:5px solid #57a8f0!important}
+.gk_code2{border-top:5px solid #57a8f0; border-bottom:5px solid #57a8f0}
+.gk_code3{border-top:1px solid #57a8f0; border-bottom:1px solid #57a8f0}
+blockquote div.gk_blockquote1{background:transparent url(../images/style3/typography/open1.png) no-repeat left bottom}
+blockquote div.gk_blockquote1 div{background:transparent url(../images/style3/typography/close1.png) no-repeat right top}
+blockquote div.gk_blockquote2{background:transparent url(../images/style3/typography/open1.png) no-repeat left top}
+blockquote div.gk_blockquote2 div{background:transparent url(../images/style3/typography/close1.png) no-repeat right top}
+blockquote div.gk_blockquote3{background:transparent url(../images/style3/typography/open2.png) no-repeat left bottom}
+blockquote div.gk_blockquote3 div{background:transparent url(../images/style3/typography/close2.png) no-repeat right top}
+blockquote div.gk_blockquote4{background:transparent url(../images/style3/typography/open2.png) no-repeat left top}
+blockquote div.gk_blockquote4 div{background:transparent url(../images/style3/typography/close2.png) no-repeat right top}
+.gk_highlight-2{background:#57a8f0; color:#fff}
+.gk_highlight-3{background:#115bb2; color:#fff}
+span.gk_clear{border-top:1px solid #57a8f0; border-bottom:1px solid #57a8f0; color:#57a8f0}
+span.gk_clear-1{border-top:1px solid #115bb2; border-bottom:1px solid #115bb2; color:#115bb2}
+span.gk_color{color:#57a8f0}
+span.gk_color-1{color:#115bb2}
+span.gk_color-2{color:#57a8f0; border-left:2px solid #57a8f0}
+span.gk_color-4{color:#57a8f0; background:#f4fbff}
+span.gk_color-5{color:#fff; background:#115bb2}
+ul.gk_circle1{list-style-image:url(../images/style3/typography/bullet3ul.png)!important}
+ul.gk_circle2{list-style-type:circle}
+ul.gk_bullet1{list-style-image:url(../images/style3/typography/bullet_ol_1_dark.png)!important}
+ul.gk_bullet2{list-style-image:url(../images/style3/typography/bullet1ul.png)!important}
+ul.gk_bullet3{list-style-image:url(../images/style3/typography/bullet2ul.png)!important}
+ul.gk_bullet4{list-style-image:url(../images/style3/typography/bullet_ol_1_color.png)!important}
+ul.gk_square1{list-style-type:square}
+ul.gk_square2{list-style-image:url(../images/style3/typography/bullet_squ1_dark.png)!important}
+ul.gk_square3{list-style-image:url(../images/style3/typography/bullet_squ1_color.png)!important}
+div.gk_number1 span{background:transparent url(../images/style3/typography/bullet_ol_2.png) no-repeat center center; color:#fff}
+div.gk_number2 span{background:transparent url(../images/style3/typography/bullet_ol_2_color.png) no-repeat center center; color:#fff}
+
+/*
+ * file: k2.css
+ */
+
+div.itemHeader h2.itemTitle span sup {color:#115bb2;} /* "Featured" presented in superscript */
+div.itemComments ul.itemCommentsList li span.commentAuthorName {color:#115bb2;}
+div.itemCommentsForm form input.button:hover {background: #115bb2}
+div.itemCommentsForm form span#formLog {color:#115bb2;}
+div.catItemHeader h3.catItemTitle span sup {color:#115bb2;} /* superscript */	
+div.userItemHeader h3.userItemTitle span sup {color:#115bb2;} /* "Unpublished" presented in superscript */
+div.k2LatestCommentsBlock ul li > a {color: #115bb2; }
+div.k2ArchivesBlock ul li a {color: #115bb2}
+table.calendar tr td.calendarTodayLinked {background:#115bb2;}
+div.k2CategoriesListBlock ul li a {color: #115bb2}
+div.k2TagCloudBlock a:hover {background:#115bb2;}

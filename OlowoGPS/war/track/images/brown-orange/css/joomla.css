@@ -1,0 +1,645 @@
+
+/*
+
+#------------------------------------------------------------------------
+
+# Corporate - April 2010 (for Joomla 1.5)
+
+#
+
+# Copyright (C) 2007-2010 Gavick.com. All Rights Reserved.
+
+# License: Copyrighted Commercial Software
+
+# Website: http://www.gavick.com
+
+# Support: support@gavick.com   
+
+#------------------------------------------------------------------------ 
+
+# Based on T3 Framework
+
+#------------------------------------------------------------------------
+
+# Copyright (C) 2004-2009 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+
+# @license - GNU/GPL, http://www.gnu.org/copyleft/gpl.html
+
+# Author: J.O.O.M Solutions Co., Ltd
+
+# Websites: http://www.joomlart.com - http://www.joomlancers.com
+
+#------------------------------------------------------------------------
+
+*/
+
+
+
+/* 
+
+ * Readon links
+
+ */
+
+ 
+
+a.readon { display: inline-block; color: #fff; font-size: 90%; font-weight: bold; height:16px; line-height: 16px; width:auto; text-decoration: none; text-transform: uppercase; margin: 2px 0; padding:0 4px; background:#d1cecb; }
+
+a.readon:hover,
+a.readon:active,
+a.readon:focus { background:#B02500; color: #fff; }
+
+#gk-mainbody a.readon,
+#gk-mainbody .button,
+#gk-mainbody button { color: #fff; }
+
+/* 
+
+ * Content spacing 
+
+ */
+
+
+
+.componentheading { font-weight:bold; font-size: 240%; clear:both; overflow:hidden; color: #6c6459; margin-bottom: 20px; }
+
+.contentheading { font-weight: bold; font-size: 220%; margin-top: 12px; clear:both; overflow:hidden; }
+
+.componentheading span { display:block; float:left; clear:both; margin: 10px 0 0 0; }
+
+a.contentpagetitle,
+a.contentpagetitle:hover,
+a.contentpagetitle:active,
+a.contentpagetitle:focus { font-weight: bold; }
+
+.category { }
+
+div.display { margin: 10px 0; }
+
+/* 
+
+ * Small text 
+
+ */
+
+ 
+
+small,
+.small,
+.smalldark,
+.img_caption,
+.contenttoc { font-size: 90%; }
+
+.modifydate { font-style:italic; font-size:90%; }
+
+small,
+.small { }
+
+.smalldark { text-align: left; }
+
+/* 
+
+ * Others 
+
+ */
+
+ 
+
+th { font-weight: bold; padding: 5px 0; text-align: left; }
+
+td { font-size: 100%; padding: 5px; }
+
+fieldset { border: none; padding: 10px 0; }
+
+fieldset a { font-weight: bold; }
+
+fieldset.input { padding: 0; }
+
+hr { border-bottom: 0; border-left: 0; border-right: 0; border-top: 1px solid #c8c4b4; height: 1px; }
+
+/* 
+
+ *
+
+ * FORM
+
+ * ----------------------------------------------------------------------------------------
+
+ *
+
+ */
+
+ 
+
+fieldset { }
+
+fieldset p { }
+
+label { margin: 0 10px 0 0; }
+
+input,
+select,
+textarea,
+.inputbox { background:#fff; border:1px solid #d6d4d1; padding:0 0 0 6px; color:#6c6459; }
+
+input,
+select { height:24px; line-height:24px; }
+
+.adminform button,
+ #adminForm button,
+ .button { display:block; background:#979189; border:1px solid #6C6459!important; border-top:none!important; border-left:none!important; text-transform:uppercase; color:#fff; font-weight:bold; height:25px; line-height:25px; font-size:10px; }
+
+.adminform button,
+#adminForm button { float:left; margin-left:4px; }
+
+input.button { padding:0 6px; }
+
+.adminform button:hover,
+#adminForm button:hover,
+ .adminform button:focus,
+#adminForm button:focus,
+ .button:hover,
+.button:focus { background:#B02500; cursor:pointer; }
+
+input[type=checkbox],
+.checkbox { height:auto!important; }
+
+input[type=radio],
+.radio { height:auto!important; }
+
+select[size] { height:auto; }
+
+/*
+
+ *
+
+ * JOOMLA STYLE
+
+-------------------------------------------------------------------------------------------
+
+ *
+
+ *
+
+ */
+
+ 
+
+/*
+
+ * Layout Deco 
+
+ */
+
+ 
+
+#component { margin: 0; }
+
+.blog { }
+
+.article_separator,
+.leading_separator,
+.row_separator,
+.column_separator { display: none; }
+
+.leading { padding-bottom: 3px; padding-top: 3px; }
+
+.article_row { padding-bottom: 10px; padding-top: 10px; }
+
+.article_column { }
+
+.column_separator { padding: 0 25px; }
+
+/* 
+
+ * Meta 
+
+ */
+
+ 
+
+.article-tools { clear: both; display: block; margin: 0 0 20px; }
+
+.article-meta { float: left; margin-top: 6px; padding: 0; font-size: 90% }
+
+.article-meta a.comments { margin:0 10px 0 0; }
+
+.article-meta span { margin: 0 10px 0 0; }
+
+.contentdescription { display: block; padding: 10px 0; }
+
+.contentdescription p { margin: 0; }
+
+.buttonheading { float: right; padding-left: 4px; }
+
+.buttonheading img { border: 0; float: right; margin: 0 3px 0 0; }
+
+.contentpaneopen_edit { float:right!important; margin-right:2px; }
+
+/*
+
+ * tool-tips
+
+ */
+
+
+
+.tool-tip { background:#fff; padding:5px; border:1px solid #c8c3be; border-top:none; border-left:none; }
+
+.tool-title { background:#b02500; color:#fff; text-transform:uppercase; font-weight:bold; padding:3px; }
+
+.tool-text { padding:3px; }
+
+/*
+
+ * Inline images 
+
+ */
+
+ 
+
+img.caption { margin-top: 5px; }
+
+.img_caption { margin-bottom: 10px; font-size:90%; font-style:italic; text-transform:uppercase; }
+
+.article-content img { margin: 5px; }
+
+.img_caption img { margin: 5px 0 0; padding: 6px; border: 1px dotted #DDDAD8 }
+
+.img_caption p { margin: 0; padding:5px; text-align:center; }
+
+/* Caption fixes */
+.img_caption.left { float: left; margin-right: 3em; }
+
+.img_caption.right { float: right; margin-left: 3em; }
+
+/* 
+
+ * Tables 
+
+*/
+
+ 
+
+.sectiontableheader { background: #6C6459; color:#fff; font-weight: normal; padding:8px 10px; font-size: 12px; }
+
+.sectiontableheader a,
+.sectiontableheader a:hover,
+.sectiontableheader a:focus,
+.sectiontableheader a:active { color: #fff!important; }
+
+.sectiontableentry td,
+.sectiontableentry0 td,
+.sectiontableentry1 td,
+.sectiontableentry2 td { padding: 7px 10px; border-bottom: 1px dotted #cec7bd }
+
+.sectiontableentry:hover,
+.sectiontableentry0:hover,
+.sectiontableentry1:hover,
+.sectiontableentry2:hover { }
+
+.sectiontableentry2 { }
+
+table.contentpane,
+table.tablelist { width: 100%; }
+
+table.contentpaneopen { border: none; border-collapse: collapse; border-spacing: 0; }
+
+/* 
+
+ * Content Toc 
+
+ */
+
+ 
+
+table.contenttoc { border: 1px solid #c8c4b4; float: right; margin: 0 0 10px 12px; padding: 0; width: 30%; }
+
+table.contenttoc a { color: #666; }
+
+table.contenttoc td { border-bottom: 1px dotted #c8c4b4; padding: 5px 10px; }
+
+table.contenttoc th { border-bottom: 1px solid #c8c4b4; padding: 5px 10px; text-transform: uppercase; }
+
+/*
+
+ * Misc. 
+
+ */
+
+ 
+
+table.contentpaneopen,
+table.contentpane,
+table.blog { width: 100%; }
+
+/* 
+
+ * Pagination 
+
+ */
+
+ 
+
+ul.pagination { float: left; margin: 10px 0; padding: 3px 0; width: 75%; border: 1px dotted #DDDAD8; border-left: none; border-right: none }
+
+ul.pagination li { background: none!important; display: inline; margin: 0 5px; overflow: hidden; color:#979189; font-size:80%; font-weight:bold; text-transform:uppercase; padding: 0!important; }
+
+ul.pagination li span,
+ul.pagination a { padding: 2px 8px; }
+
+ul.pagination a { line-height: 20px; text-decoration: none; }
+
+ul.pagination a:hover,
+ul.pagination a:active,
+ul.pagination a:focus,
+ul.pagination span:hover { background: #f1f1f1; }
+
+.sortby { font-size: 92%; margin: 10px 0 5px; }
+
+.sortby .filter,
+.sortby .display { float: left; width: 40%; }
+
+.sortby .display { float: right; text-align: right; }
+
+.pagenavbar { font-weight: bold; }
+
+.pagenavcounter { margin: 15px 0 !important; text-align: center; }
+
+.counter { float: right; line-height: 1; margin: 15px 0 !important; text-align: right; width: 24%; }
+
+.counter span { background: #DDDAD8; color:#fff; font-size:80%; font-weight:bold; text-transform:uppercase; padding: 2px 8px; }
+
+.blog_more { border-top: 1px dotted #dddad8; padding: 15px 0; margin:30px 0; }
+
+.blog_more h2 { font-size: 120%!important; margin: 0 0 10px!important; }
+
+.blog_more ul { padding: 0; margin:0; }
+
+.blog_more ul li { }
+
+div.back_button a,
+div.back_button a:hover,
+div.back_button a:active { display: block; margin: 10px 0; }
+
+/* 
+
+ * Messages 
+
+ */
+
+ 
+
+#system-message { margin: 0 0 4px; }
+
+#system-message dd { padding:0!important; background:none!important; }
+
+#system-message dd.message ul,
+#system-message dd.error ul,
+#system-message dd.notice ul { margin: 0; padding: 0; }
+
+#system-message dd.message ul li,
+#system-message dd.error ul li,
+#system-message dd.notice ul li { background: none; color: #fff; margin: 0; padding: 5px 16px; text-indent:0; }
+
+/* System Standard Messages */
+
+#system-message dd.message ul { background: #aac900; border:1px solid #718500; border-left:none; border-top:none; }
+
+/* System Error Messages */
+
+#system-message dd.error ul { background: #ec3200; border:1px solid #b02500; border-left:none; border-top:none; }
+
+/* System Notice Messages */
+
+#system-message dd.notice ul { background: #57a8f0; border:1px solid #115bb2; border-left:none; border-top:none; }
+
+/*
+
+ *
+
+ * JOOMLA STYLE
+
+-------------------------------------------------------------------------------------------
+
+ *
+
+ *
+
+ */
+
+ 
+
+/*
+
+ * Login Module and Register Section
+
+ */
+
+ 
+
+.mod_login ul { margin-top: 18px; font-size:90% }
+
+.mod_login ul li { background: url('../images/menu_bullet.png') no-repeat 0 6px; padding: 0 0 0 14px }
+
+.mod_login ul li a { color:#979189 }
+
+.mod_login ul li a:hover { color:#000 }
+
+#component .login_form { margin-bottom: 100px }
+
+p.username,
+p.password,
+p.remember { clear:both; padding:6px 0; }
+
+#component .login_form p.name,
+#component .login_form p.pass { float: left; margin-right: 20px; padding: 0; }
+
+#component .login_form p.remember { float: left; padding: 0; }
+
+#component .login_form p.lost-noaccount a { margin: 0 0 0 10px; padding: 0 0 0 10px; border-left: 1px dotted #999; }
+
+#component .form-register p label { width: 120px; display: block; float: left }
+
+#component .form-register p input { width: 220px }
+
+/*
+
+ * Resrtiction
+
+ */
+
+
+
+/* 
+
+ * mod_search 
+
+*/
+
+
+
+.mod_search { }
+
+.mod_search>input#mod_search_searchword { background:#fff; height:23px; line-height:23px; border:1px solid #d6d4d1; border-bottom:none; border-right:none; width:174px; padding:0 0 0 6px; color:#6c6459; }
+
+.mod_search>input#mod_search_button { }
+
+/* 
+
+ * com_search 
+
+ */
+
+ 
+
+table.searchintro { padding: 10px 0; width: 100%; }
+
+table.searchintro td { padding: 5px !important; }
+
+form#searchForm { border-top: 1px dotted #c8c4b4; padding: 15px 0; }
+
+.searchintro { border-bottom: 1px dotted #c8c4b4; margin-bottom: 20px }
+
+.results h4 { text-transform: none; font-size: 110%; margin: 15px 0 0; }
+
+.results h4 a { color: #979189!important }
+
+.results h4 a:hover { color: #000!important }
+
+.results p { margin: 0 0 10px; color: #666; font-size: 90% }
+
+.results p span.small { font-size: 100% }
+
+.results ol li { border-bottom: 1px dotted #cec7bd; padding-bottom: 15px; margin-left: 20px }
+
+/* 
+
+ * com_contact
+
+ */
+
+ 
+
+.contact-left { float: left; }
+
+.contact-right { float: right; }
+
+.contact-right img { margin: 30px; border:1px solid #dcdad1; background: #f6f4f1; padding: 6px }
+
+.contact-position { padding: 0 0 20px; display: block }
+
+#component-contact address { font-style: normal; }
+
+#component-contact #emailForm { border-top: 1px solid #ddd; padding-top: 15px; }
+
+.contact_email { margin: 0 0 10px; }
+
+.contact_email label { font-weight: bold; display: block; }
+
+.contact_email_checkbox { margin: 15px 0; }
+
+/* 
+
+ * mod_breadcrumbs 
+
+*/
+
+ 
+
+.mod_breadcrumbs { float:left; width:auto; color:#979189; }
+
+.mod_breadcrumbs>span.youah { text-transform:uppercase; margin:0 16px 0 0; font-size:105%; }
+
+.mod_breadcrumbs>span.pathway { }
+
+.mod_breadcrumbs>span.pathway a { color:#979189; }
+
+.mod_breadcrumbs>span.pathway a:hover { color:#979189; text-decoration:underline; }
+
+.mod_breadcrumbs span,
+.mod_breadcrumbs a { color:#979189; }
+
+.mod_breadcrumbs>span.pathway.separator { }
+
+.mod_breadcrumbs>span.pathway.last { }
+
+/*
+
+ * com_poll
+
+ */
+
+.polls_color_1,
+.polls_color_2,
+.polls_color_3,
+.polls_color_4,
+.polls_color_5 { border:none!important; height:8px!important; }
+
+.polls_color_1 { background-color:#ec3200; }
+
+.polls_color_2 { background-color:#aac900; }
+
+.polls_color_3 { background-color:#57a8f0; }
+
+.polls_color_4 { background-color:#b02500; }
+
+.polls_color_5 { background-color:#718500; }
+
+#poll { margin:10px 0; }
+
+#poll label { font-weight:bold; }
+
+#poll label select { margin-left: 10px; }
+
+dl.poll dt { float:left; margin:0 10px 0 0; font-weight:bold; }
+
+dl.poll dd { font-style:italic; }
+
+.pollstableborder { width:100%; }
+
+.pollstableborder tr { }
+
+.pollstableborder .sectiontableheader th { background:#6C6459; color:#fff; font-weight: normal; border:none; padding: 8px 0; }
+
+.pollstableborder .sectiontableentry0,
+ .pollstableborder .sectiontableentry1 { border-top: 1px dotted #cec7bd }
+
+.pollstableborder .question { font-weight:bold; height:32px; padding-top:20px; }
+
+.pollstableborder .td_1,
+ .pollstableborder .td_2 { text-align:center; border-right:1px dotted #cec7bd; width:10%; }
+
+.poll h3 { margin:20px 0; }
+
+/*
+
+ * com_wrapper, mod_wrapper
+
+ */
+
+ 
+
+iframe { border:1px solid #d6d4d1; background:#fff }
+
+/*
+
+ * com_user
+
+ */
+
+ 
+
+.user-details label { width:40%; display:block; float:left; margin:0 5px 0 0!important; clear:left; }
+
+/*
+
+ * invalid
+
+ */
+
+
+
+input.invalid { border:1px solid #ec3200!important; color:#b02500!important; }
+
+label.invalid { color:#b02500!important; font-weight:bold; }

@@ -1,0 +1,58 @@
+/*
+#------------------------------------------------------------------------
+# Corporate - April 2010 (for Joomla 1.5)
+#
+# Copyright (C) 2007-2010 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com   
+#------------------------------------------------------------------------ 
+# Based on T3 Framework
+#------------------------------------------------------------------------
+# Copyright (C) 2004-2009 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+# @license - GNU/GPL, http://www.gnu.org/copyleft/gpl.html
+# Author: J.O.O.M Solutions Co., Ltd
+# Websites: http://www.joomlart.com - http://www.joomlancers.com
+#------------------------------------------------------------------------
+*/
+
+body{ padding-bottom:20px; }
+#gk-left .gk-l2 .gk-left1, #gk-left .gk-l2 .gk-left2,
+#gk-right .gk-r2 .gk-right1, #gk-right .gk-r2 .gk-right2 { width: 49.99%; }
+#gk-left .gk-l2 .gk-left2, #gk-right .gk-r2 .gk-right2 { float: right; }
+.cols2 .article_column { width: 49.99%; }
+.cols3 .article_column { width: 33.3%; }
+.cols4 .article_column { width: 24.99%; }
+.cols5 .article_column { width: 19.99%; }
+/*
+*html #gk-wrapper { margin-top: 205px; }
+*/
+/* clearfix ---*/
+#gk-subnav ul, ul.pagination li span, ul.pagination a, #gk-footnav, 
+.counter span, .contentdescription, .leading,
+.column ul li, .gk-moduletable li, .gk-module li { zoom: 1; }
+#gk-footnav { width: 100%; }
+#header{ margin:0 0 1px 0!important; }
+.mod_poll .button{ padding:4px 3px!important; }
+/* Typography ---*/
+p.error, p.message, p.tips, p.rss, p.key, p.tag, p.cart, p.note, p.photo, p.doc, p.mobi,
+p.blocknumber, div.bubble div.box-ct { zoom: 1; }
+.bignumber-1, .bignumber-2, .bignumber-3 { line-height: 44px; }
+.gk_hide { margin-top:0!important;}
+.gk-megamenu ul.level1 .childcontent {margin-top:-30px!important; }
+.buttonheading{ width:70px!important; float:right!important; }
+#mod_search_searchword{ line-height:26px!important; }
+#popup_register{ width:auto!important;float:left!important; }
+#popup_login{width:180px!important;float:left!important;}
+.gk_popup_wrap,
+.popup_col{ float:left!important; width:auto!important; }
+#josForm,
+.popup_col:first-child .mod_login{ width:400px; }
+.popup_col .mod_login{ width:80px; }
+.gk_popup_wrap p.remember{ width:200px!important; }
+.gk_popup_wrap .form_buttons .button{ line-height:16px!important; }
+#comments-form-comment{ margin:0!important; padding:0!important; }
+.jc_field,
+.clearbox{ margin:0!important; min-width:250px!important; padding:0 20px 0 0!important; }
+.jc_field label{ padding:0 0 0 16px!important; }
+.gk_hide { margin:-4px 0 0 0!important;padding:2px 0 0 0; }

@@ -1,0 +1,49 @@
+[INFO_|10/17 19:03:16|ServerSocketThread$ServerSessionThread.run:1392] Remote client port: /127.0.0.1:4370[31200]
+[INFO_|10/17 19:03:16|AbstractClientPacketHandler.printSessionStart:165] Begin TCP communication: 127.0.0.1
+[INFO_|10/17 19:03:16|TrackClientPacketHandler.sessionStarted:256] Begin TCP communication: 127.0.0.1 [Mon Oct 17 19:03:16 EDT 2011]
+[ERROR|10/17 19:03:16|ServerSocketThread$ServerSessionThread.readPacket:2033] ReadPacket error - java.net.SocketException: Connection reset
+[ERROR|10/17 19:03:16|ServerSocketThread$ServerSessionThread.run:1547] Connection closed
+[INFO_|10/17 19:03:16|ServerSocketThread$ServerSessionThread.run:1553] End of session ...
+[INFO_|10/17 19:03:16|TrackClientPacketHandler.sessionTerminated:270] End TCP communication: 127.0.0.1
+[INFO_|10/17 19:05:27|ServerSocketThread$ServerSessionThread.run:1392] Remote client port: /127.0.0.1:4379[31200]
+[INFO_|10/17 19:05:27|AbstractClientPacketHandler.printSessionStart:165] Begin TCP communication: 127.0.0.1
+[INFO_|10/17 19:05:27|TrackClientPacketHandler.sessionStarted:256] Begin TCP communication: 127.0.0.1 [Mon Oct 17 19:05:27 EDT 2011]
+[INFO_|10/17 19:05:27|TrackClientPacketHandler.getHandlePacket:395] Recv[HEX]: 6261796F2F6770726D635F3132333435363738393031323334352F244750524D432C3038303730312E30302C412C333132382E373534302C4E2C31343235372E363731342C572C32372E362C3130372E352C3138303630372C31332E312C452C412A3244
+[INFO_|10/17 19:05:27|TrackClientPacketHandler.getHandlePacket:397] Recv[TXT]: bayo/gprmc_123456789012345/$GPRMC,080701.00,A,3128.7540,N,14257.6714,W,27.6,107.5,180607,13.1,E,A*2D
+[INFO_|10/17 19:05:27|TrackClientPacketHandler.parseInsertRecord_ASCII_2:701] Parsing: bayo/gprmc_123456789012345/$GPRMC,080701.00,A,3128.7540,N,14257.6714,W,27.6,107.5,180607,13.1,E,A*2D
+[INFO_|10/17 19:05:27|TrackClientPacketHandler.parseInsertRecord_ASCII_2:703] //////////////////////// pre-validate ///////////////////
+[INFO_|10/17 19:05:27|TrackClientPacketHandler.parseInsertRecord_ASCII_2:704] 
+[INFO_|10/17 19:05:27|TrackClientPacketHandler.parseInsertRecord_ASCII_2:711] //////////////////////// parse to fields ///////////////////
+[INFO_|10/17 19:05:27|TrackClientPacketHandler.parseInsertRecord_ASCII_2:712] 
+[INFO_|10/17 19:05:27|TrackClientPacketHandler.parseInsertRecord_ASCII_2:720] //////////////////////// parse individual fields ///////////////////
+[INFO_|10/17 19:05:27|TrackClientPacketHandler.parseInsertRecord_ASCII_2:721] 
+[INFO_|10/17 19:05:27|TrackClientPacketHandler.parseInsertRecord_ASCII_2:734] 
+
+ /////////////// BAYO TEST Nmea0183 ////////////
+[INFO_|10/17 19:05:27|TrackClientPacketHandler.parseInsertRecord_ASCII_2:735] Bayo's Test
+[INFO_|10/17 19:05:27|TrackClientPacketHandler.parseInsertRecord_ASCII_2:740] checkSum correctPacket = 68
+[INFO_|10/17 19:05:27|TrackClientPacketHandler.parseInsertRecord_ASCII_2:741] checksum2 gprmString = 117
+[INFO_|10/17 19:05:27|TrackClientPacketHandler.parseInsertRecord_ASCII_2:743] //////////////////////// no deviceID ///////////////////
+[INFO_|10/17 19:05:27|TrackClientPacketHandler.parseInsertRecord_ASCII_2:744] 
+[INFO_|10/17 19:05:27|TrackClientPacketHandler.parseInsertRecord_ASCII_2:752] //////////////////////// GPS Event ///////////////////
+[INFO_|10/17 19:05:27|TrackClientPacketHandler.parseInsertRecord_ASCII_2:753] 
+[DEBUG|10/17 19:05:27|DBConnection.getDBConnection:354] New Connection [ClientSession] jdbc:mysql://localhost:3306/gts?characterEncoding=UTF-8&useUnicode=true&characterSetResults=utf8
+[DEBUG|10/17 19:05:27|DBConnection.getConnection:604] New Connection: [ClientSession] openCount=1, closeCount=0
+[INFO_|10/17 19:05:27|Transport.loadDeviceByTransportID:1649] Located Device 'bayo/gprmc_123456789012345' (using default Device transport)
+[INFO_|10/17 19:05:27|TrackClientPacketHandler.parseInsertRecord_ASCII_2:772] //////////////////////// insert/return ///////////////////
+[INFO_|10/17 19:05:27|TrackClientPacketHandler.parseInsertRecord_ASCII_2:773] 
+[DEBUG|10/17 19:05:27|GPSEvent.insertEventData:205] Inserting EventData ...
+Event values:
+  DeviceID  : bayo/gprmc_123456789012345
+  UniqueID  : gprmc_123456789012345
+  Fixtime   : 1182154021 [Mon Jun 18 04:07:01 EDT 2007]
+  StatusCode: [0xF020] Location  GPS       : 31.47923/-142.96119 [age 0 sec]
+  SpeedKPH  : 51.1 [107.5]
+  altitude  : 0.0
+  odometerKM: 0.0
+[INFO_|10/17 19:05:27|GPSEvent.insertEventData:266] Event     : [0xF020] Location
+[INFO_|10/17 19:05:27|EventData.updateAddress:1874] [Account 'bayo'] PrivateLabel '*' does not define a ReverseGeocodeProvider
+[INFO_|10/17 19:05:27|TrackClientPacketHandler.getHandlePacket:431] Empty packet received ...
+[INFO_|10/17 19:05:38|ServerSocketThread$ServerSessionThread.run:1527] Read timeout [empty packet]
+[INFO_|10/17 19:05:38|ServerSocketThread$ServerSessionThread.run:1553] End of session ...
+[INFO_|10/17 19:05:38|TrackClientPacketHandler.sessionTerminated:270] End TCP communication: 127.0.0.1
