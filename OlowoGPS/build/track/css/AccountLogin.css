@@ -4,6 +4,11 @@
     margin-top: 50px;
     width: 350px;
     text-align: center;
+    
+    background: white;
+    border: 1px solid #C8C3BE;
+    border-top: none!important;
+    border-left: none!important;
 }
 .accountLoginCell { 
     padding: 10px; 
@@ -17,13 +22,21 @@
 /* Login page */
 .accountLoginTable_nobord { 
     margin-top: 10px;
-    width: 400px;
-    height: 70%;
+    width: 500px;
+    height: 300px;
     align: center;
     text-align: center;
+
+    background: white;
+    border: 1px solid #C8C3BE;
+    border-top: none!important;
+    border-left: none!important;
 }
 .accountLoginCell_nobord { 
-    padding: 10px; 
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
     text-align: center;
 }
 

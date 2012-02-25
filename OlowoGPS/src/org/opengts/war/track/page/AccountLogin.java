@@ -263,7 +263,7 @@ public class AccountLogin
                 String enterLoginText = showPasswd?
                     i18n.getString("AccountLogin.enterLogin","Enter your Login ID and Password") :
                     i18n.getString("AccountLogin.enterLoginNoPass","Enter Login ID (No Password Required)");
-                out.println("<span style='font-size:11pt'>"+enterLoginText+"</span>");
+                out.println("<span style='font-size:11pt; font-weight: bold;'>"+enterLoginText+"</span>");
                 out.println(HR);
                 //out.println("<center>"); // necessary because "text-align:center" doesn't center the following form/table
                 out.println("<form name='"+FORM_LOGIN+"' method='post' action='"+baseURL+"' target='"+target+"'>");
@@ -327,7 +327,7 @@ public class AccountLogin
                 // forgot password
                 if (showPasswd && (forgotURL != null)) {
                    if (legacy) { out.println("<br>"); }
-                   out.println("  <span style='font-size:8pt;padding-left:10px;'><i><a href='"+forgotURL+"'>"+i18n.getString("AccountLogin.forgotPassword","Forgot your password?")+"</a></i></span>");
+                   out.println("  <span style='font-size:8pt;padding-left:10px;'><i><a href='"+forgotURL+"' style='color: #C8C3BE;'>"+i18n.getString("AccountLogin.forgotPassword","Forgot your password?")+"</a></i></span>");
                 }
                 // end forn
                 out.println("</form>");

@@ -107,7 +107,7 @@ small,
 
 th { font-weight: bold; padding: 5px 0; text-align: left; }
 
-td { font-size: 100%; padding: 5px; }
+td { font-size: 100%; padding: 0px; }
 
 fieldset { border: none; padding: 10px 0; }
 
@@ -140,7 +140,7 @@ label { margin: 0 10px 0 0; }
 input,
 select,
 textarea,
-.inputbox { background:#fff; border:1px solid #d6d4d1; padding:0 0 0 6px; color:#6c6459; }
+.inputbox { background:#D1CECB; border:1px solid #d6d4d1; padding:0 6px 0 6px; color:white; display: inline-block; font-weight: bold; text-transform: uppercase; }
 
 input,
 select { height:24px; line-height:24px; }

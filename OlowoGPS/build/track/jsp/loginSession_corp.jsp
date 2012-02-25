@@ -368,7 +368,7 @@ SPAN.skype_pnh_container SPAN.skype_pnh_mark {
 			<div id="gk-tools">
 				<div>
 					<a id="btn_tools" href="#"><span lang="en-us">Search: </span><input
-						id="mod_search_searchword" alt="Search" class="inputbox"
+						id="mod_search_searchword" alt="Search" style="background: white;"
 						maxlength="20" name="searchword" size="20" type="text">
 					</a>
 					<div class="gk_hide"
@@ -424,10 +424,21 @@ SPAN.skype_pnh_container SPAN.skype_pnh_mark {
 				</div>
 				
 				<div id="gk-breadcrumb">
-					<span class="mod_breadcrumbs"><span class="youah">You
-							are here:</span> <span class="pathway last">Home </span>
+					<span class="mod_breadcrumbs">
+					     <table width="100%" border="0" cellpadding="0" cellspacing="0">
+					     <tbody>
+					     <tr>
+					       <td class="youah" nowrap align="left">&nbsp;<gts:var ifKey="isLoggedIn" value="true"><i>${i18n.Account}:</i> ${accountDesc} (${userDesc})</gts:var></td>
+					       <td class="youah" nowrap align="right" width="100%"><gts:var>&nbsp;${navigation}&nbsp;&nbsp;</gts:var></td>
+					     </tr>
+					     </tbody>
+					     </table>
+					
+					<!--  <span class="youah">You are here:</span> 
+						  <span class="pathway last">Home </span>
+					-->
 					</span>
-					<div id="gk-date">Tuesday, 21 Feb 2012</div>
+					<!--<div id="gk-date">Tuesday, 21 Feb 2012</div>-->
 				</div>
 				<!-- TOP MODULES -->
 			</div> <!--  moduleclear -->
@@ -463,7 +474,7 @@ SPAN.skype_pnh_container SPAN.skype_pnh_mark {
   <!-- End Page contents ======================================== -->
 
   <!-- Begin Page footer ======================================== -->
-
+	<hr style="height: 5px;">
     <table class="copyrightFooterClear" width="100%" border="0" cellpadding="0" cellspacing="0">
     <tbody>
     <tr>

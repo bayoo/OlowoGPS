@@ -7,10 +7,10 @@
 .menuBarUns20 {
     cursor: pointer;
     left: 0px;
-    width:  90px;
-    height: 20px;
+    width:  120px;
+    height: 40px;
     background-image: url(../images/UnselTab.gif);
-    background-position: 0px 3px;
+    background-position: 0px 0px;
     background-repeat: no-repeat;
     color: #000000;
     text-decoration: none;
@@ -23,10 +23,10 @@
 .menuBarUns {
     cursor: pointer;
     left: 0px;
-    width:  90px;
-    height: 25px;
+    width:  120px;
+    height: 40px;
     background-image: url(../images/UnselTab25.gif);
-    background-position: 0px 3px;
+    background-position: 0px 0px;
     background-repeat: no-repeat;
     color: #000000;
     text-decoration: none;
@@ -42,7 +42,7 @@
     width: 120px;
     height: 40px;
     background-image: url(../images/UnselTabW25.png);
-    background-position: 0px 3px;
+    background-position: 0px 0px;
     background-repeat: no-repeat;
     color: #979189;
     text-decoration: none;
@@ -56,10 +56,10 @@
 .menuBarSel20 {
     cursor: pointer;
     left: 0px;
-    width:  90px;
-    height: 20px;
+    width:  120px;
+    height: 40px;
     background-image: url(../images/SelTab.gif);
-    background-position: 0px 1px;
+    background-position: 0px 0px;
     background-repeat: no-repeat;
     color: #000000;
     text-decoration: none;
@@ -72,10 +72,10 @@
 .menuBarSel {
     cursor: pointer;
     left: 0px;
-    width:  90px;
-    height: 25px;
+    width:  120px;
+    height: 40px;
     background-image: url(../images/SelTab25.gif);
-    background-position: 0px 1px;
+    background-position: 0px 0px;
     background-repeat: no-repeat;
     color: #000000;
     text-decoration: none;
@@ -88,10 +88,10 @@
 .menuBarSelW  {
     cursor: pointer;
     left: 0px;
-    width: 150px;
-    height: 25px;
+    width: 120px;
+    height: 40px;
     background-image: url(../images/SelTabW25.png);
-    background-position: 0px 1px;
+    background-position: 0px 0px;
     background-repeat: no-repeat;
     color: #000000;
     text-decoration: none;
