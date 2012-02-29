@@ -115,7 +115,9 @@ fieldset a { font-weight: bold; }
 
 fieldset.input { padding: 0; }
 
-hr { border-bottom: 0; border-left: 0; border-right: 0; border-top: 1px solid #c8c4b4; height: 1px; }
+/* hr { border-bottom: 0; border-left: 0; border-right: 0; border-top: 1px solid #c8c4b4; height: 1px; }
+ */
+ hr { border-bottom: 0; border-left: 0; border-right: 0; border-top: 1px solid #9A2016; height: 1px; }
 
 /* 
 
@@ -138,10 +140,16 @@ fieldset p { }
 label { margin: 0 10px 0 0; }
 
 input,
+.inputbox { background:#FFF; border:1px solid #979189; padding:0 6px 0 6px; color:#6C6459; display: inline-block; font-weight: bold; font-size: 9px;text-transform: uppercase; }
+
 select,
 textarea,
-.inputbox { background:#D1CECB; border:1px solid #d6d4d1; padding:0 6px 0 6px; color:white; display: inline-block; font-weight: bold; text-transform: uppercase; }
+.inputbox { background:#FFF; border:1px solid #979189;  padding:0 6px 0 6px; color:#6C6459; display: inline-block; font-weight: bold; font-size: 9px; text-transform: uppercase; }
 
+/*
+textarea,
+.inputbox { background:#D1CECB; border:1px solid #d6d4d1; padding:0 6px 0 6px; color:white; display: inline-block; font-weight: bold; text-transform: uppercase; }
+*/
 input,
 select { height:24px; line-height:24px; }
 

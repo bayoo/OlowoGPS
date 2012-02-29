@@ -3,6 +3,8 @@
 SPAN.reportRadioButton { 
     padding-left: 7px; 
     padding-right: 10px; 
+
+	color: #979189;
 }
 
 INPUT.reportRadioButton { 

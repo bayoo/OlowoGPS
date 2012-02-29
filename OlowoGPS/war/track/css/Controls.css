@@ -95,6 +95,7 @@
 }
 .menuInstructions { 
     font-size: 10pt; 
+    color: #9A2016
 }
 .menuDescription { 
     padding-top: 3px; 
@@ -112,9 +113,14 @@
 .contentCell {
     /* height: 100%; */
     padding: 5px;
-    border: solid #555555 2px;
-    background-color: #F4F4FF;
+    /*border: solid #555555 2px;
+    background-color: #F4F4FF;*/
     vertical-align: top;
+    
+    background: white;
+    border: 1px solid #C8C3BE;
+    border-top: none!important;
+    border-left: none!important;
 }
 .contentTopMenuCell { 
     padding: 5px; 
@@ -137,7 +143,7 @@
 
 /* Map page content */
 .contentMapTable {
-    width: 844px;
+    width: 100%;
     height: 550px;
     max-height: 550px;
     margin-top: 10px;
@@ -145,10 +151,16 @@
 .contentTrackMapCell {
     width: 100%;
     padding: 5px 5px 5px 5px;
-    border: 2px solid #555555;
-    background-color: #FBFBFB;
+    /*border: 2px solid #555555;
+    background-color: #FBFBFB;*/
     font-size: 7pt;
     vertical-align: top;
+    
+    background: white;
+    border: 1px solid #C8C3BE;
+    border-top: none!important;
+    border-left: none!important;
+    
 }
 
 /* Map page content full screen */

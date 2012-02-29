@@ -170,8 +170,8 @@ var CAL_ID_TIME         = ".time";
 var CAL_ID_TIME_HH      = ".timeHH";
 var CAL_ID_TIME_MM      = ".timeMM";
 
-var COLOR_THISDAY_BG    = "#EFFFFF";
-var COLOR_THISDAY_BGS   = "#00EEEE";
+var COLOR_THISDAY_BG    = "#f2e9e5";
+var COLOR_THISDAY_BGS   = "#6C6459";
 
 var ARROW_DOWN_CHAR     = "&#9660;";
 var ARROW_UP_CHAR       = "&#9650;";
@@ -552,6 +552,8 @@ Calendar.prototype.selectDay = function(dy,hr,mn)
         if (md != null) {
             var bg = (d==dy)? COLOR_THISDAY_BGS : COLOR_THISDAY_BG;
             md.style.backgroundColor = bg;
+            if(bg == COLOR_THISDAY_BGS)
+            	md.style.color = "#FFFFFF";
         }
     }
     this.setFormDate();
@@ -927,7 +929,7 @@ Calendar.prototype._writeCalendar = function(expanded, calRows)
             calendarBODY += "<td class='"+CLASS_CAL_MONTH_ADVANCE+"'>&nbsp;</td>\n";
         } else
         if (!this.isSameMonthAsPriorCalendar()) {
-            calendarBODY += "<td class='"+CLASS_CAL_MONTH_ADVANCE+"'><b><a href=\"javascript:"+this.calVarName+".gotoPreviousMonth()\" title=\""+TOOLTIP_PREV_MONTH+"\">&lt;&lt;&lt;&lt;</a></b></td>\n";
+            calendarBODY += "<td class='"+CLASS_CAL_MONTH_ADVANCE+"'><b><a href=\"javascript:"+this.calVarName+".gotoPreviousMonth()\" style=\"color: #9A2016;\" title=\""+TOOLTIP_PREV_MONTH+"\">&lt;&lt;&lt;&lt;</a></b></td>\n";
         } else {
             calendarBODY += "<td class='"+CLASS_CAL_MONTH_ADVANCE+"'><b>&lt;&lt;&lt;&lt;</b></td>\n";
         }
@@ -936,7 +938,7 @@ Calendar.prototype._writeCalendar = function(expanded, calRows)
             calendarBODY += "<td class='"+CLASS_CAL_MONTH_ADVANCE+"'>&nbsp;</td>\n"
         } else
         if (!this.isSameMonthAsNextCalendar()) {
-            calendarBODY += "<td class='"+CLASS_CAL_MONTH_ADVANCE+"'><b><a href=\"javascript:"+this.calVarName+".gotoNextMonth()\" title=\""+TOOLTIP_NEXT_MONTH+"\">&gt;&gt;&gt;&gt;</a></b></td>\n";
+            calendarBODY += "<td class='"+CLASS_CAL_MONTH_ADVANCE+"'><b><a href=\"javascript:"+this.calVarName+".gotoNextMonth()\" style=\"color: #9A2016;\" title=\""+TOOLTIP_NEXT_MONTH+"\">&gt;&gt;&gt;&gt;</a></b></td>\n";
         } else {
             calendarBODY += "<td class='"+CLASS_CAL_MONTH_ADVANCE+"'><b>&gt;&gt;&gt;&gt;</b></td>\n";
         }

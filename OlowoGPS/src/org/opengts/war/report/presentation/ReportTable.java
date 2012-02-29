@@ -189,7 +189,7 @@ public class ReportTable
         I18N i18n = privLabel.getI18N(ReportTable.class);
 
         out.print("<center>\n");
-        out.print("<table cellspacing='0' cellpadding='0' border='0'>\n");
+        out.print("<table cellspacing='0' cellpadding='0' border='0' width='100%'>\n");
 
         /* report title row */
         {

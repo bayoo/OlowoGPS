@@ -2,6 +2,7 @@
 /* report display content */
 TABLE.reportDisplayTable {
     padding-top: 10px;
+    width: 100%;
 }
 TD.reportDisplayCell {
 }
@@ -39,7 +40,7 @@ TABLE.rptTbl {
     border: 1px solid black; 
 }
 TABLE.rptTbl_sortable { 
-    border: 1px solid #000077; 
+    border: 1px solid #6C6459; 
 }
 
 /* header */

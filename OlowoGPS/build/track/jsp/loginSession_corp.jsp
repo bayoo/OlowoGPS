@@ -217,10 +217,10 @@ body {
 						<TABLE width="100%" border="0" cellpadding="0" cellspacing="0">
 							<TBODY>
 								<TR>
-									<TD class="youah" nowrap align="left" style="padding: 5px">&nbsp;<gts:var
+									<TD style="color: #6C6459;" nowrap align="left" style="padding: 5px">&nbsp;<gts:var
 											ifKey="isLoggedIn" value="true"><i>${i18n.Account}:</i> ${accountDesc} (${userDesc})</gts:var>
 									</TD>
-									<TD class="youah" nowrap align="right" style="padding: 5px"
+									<TD style="color: #6C6459;" nowrap align="right" style="padding: 5px"
 										width="100%"><gts:var>&nbsp;${navigation}&nbsp;&nbsp;</gts:var>
 									</TD>
 								</TR>

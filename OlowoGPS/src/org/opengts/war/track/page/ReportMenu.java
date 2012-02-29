@@ -664,7 +664,7 @@ public class ReportMenu
                 /* begin calendar/report-selection table */
                 out.write("<table height='90%' border='0' cellspacing='0' cellpadding='0'>\n"); // {
                 out.write("<tr>\n");
-                out.write("<td valign='top' height='100%' style='padding-right:3px; border-right: 3px double black;'>\n");
+                out.write("<td valign='top' height='100%' style='padding-right:3px; border-right: 1px solid #9A2016;'>\n");
 
                 /* device[group] list */
                 out.write("<form id='"+FORM_DEVICE_GROUP+"' name='"+FORM_DEVICE_GROUP+"' method='post' action=\"javascript:rptmSubmitReport();\" target='_self''>\n"); // target='_top'
@@ -684,15 +684,15 @@ public class ReportMenu
                             case DESCRIPTION : {
                                 String grDesc = FilterValue(reqState.getDeviceGroupDescription(_groupID,false));
                                 out.write("<input id='"+ID_DEVICE_ID   +"' name='"+PARM_GROUP_ID  +"' type='hidden' value='"+_groupID+"'>");
-                                out.write("<input id='"+ID_DEVICE_DESCR+"' name='"+ID_DEVICE_DESCR+"' type='text' value='"+grDesc+"' readonly size='"+chooserLen+"' style='"+chooserStyle+"' onclick=\""+chooserOnclick+"\">");
+                                out.write("<input id='"+ID_DEVICE_DESCR+"' name='"+ID_DEVICE_DESCR+"' type='text' value='"+grDesc+"' readonly size='"+chooserLen+"' style='"+chooserStyle+" width: 125;' onclick=\""+chooserOnclick+"\">");
                                 } break;
                             case NAME : {
                                 String grName = FilterValue(reqState.getDeviceGroupDescription(_groupID,true));
                                 out.write("<input id='"+ID_DEVICE_ID   +"' name='"+PARM_GROUP_ID  +"' type='hidden' value='"+_groupID+"'>");
-                                out.write("<input id='"+ID_DEVICE_DESCR+"' name='"+ID_DEVICE_DESCR+"' type='text' value='"+grName+"' readonly size='"+chooserLen+"' style='"+chooserStyle+"' onclick=\""+chooserOnclick+"\">");
+                                out.write("<input id='"+ID_DEVICE_DESCR+"' name='"+ID_DEVICE_DESCR+"' type='text' value='"+grName+"' readonly size='"+chooserLen+"' style='"+chooserStyle+" width: 125;' onclick=\""+chooserOnclick+"\">");
                                 } break;
                             default : {
-                                out.write("<input id='"+ID_DEVICE_ID   +"' name='"+PARM_GROUP_ID  +"' type='text' value='"+_groupID+"' readonly size='"+chooserLen+"' style='"+chooserStyle+"' onclick=\""+chooserOnclick+"\">");
+                                out.write("<input id='"+ID_DEVICE_ID   +"' name='"+PARM_GROUP_ID  +"' type='text' value='"+_groupID+"' readonly size='"+chooserLen+"' style='"+chooserStyle+" width: 125;' onclick=\""+chooserOnclick+"\">");
                                 } break;
                         }
                         out.write("</td>");
@@ -750,15 +750,15 @@ public class ReportMenu
                             case DESCRIPTION : {
                                 String dvDesc = FilterValue(reqState.getDeviceDescription(_deviceID,false));
                                 out.write("<input id='"+ID_DEVICE_ID   +"' name='"+PARM_DEVICE_ID +"' type='hidden' value='"+_deviceID+"'>");
-                                out.write("<input id='"+ID_DEVICE_DESCR+"' name='"+ID_DEVICE_DESCR+"' type='text' value='"+dvDesc   +"' readonly size='"+chooserLen+"' style='"+chooserStyle+"' onclick=\""+chooserOnclick+"\">");
+                                out.write("<input id='"+ID_DEVICE_DESCR+"' name='"+ID_DEVICE_DESCR+"' type='text' value='"+dvDesc   +"' readonly size='"+chooserLen+"' style='"+chooserStyle+" width: 125;' onclick=\""+chooserOnclick+"\">");
                                 } break;
                             case NAME : {
                                 String dvName = FilterValue(reqState.getDeviceDescription(_deviceID,true));
                                 out.write("<input id='"+ID_DEVICE_ID   +"' name='"+PARM_DEVICE_ID +"' type='hidden' value='"+_deviceID+"'>");
-                                out.write("<input id='"+ID_DEVICE_DESCR+"' name='"+ID_DEVICE_DESCR+"' type='text' value='"+dvName   +"' readonly size='"+chooserLen+"' style='"+chooserStyle+"' onclick=\""+chooserOnclick+"\">");
+                                out.write("<input id='"+ID_DEVICE_DESCR+"' name='"+ID_DEVICE_DESCR+"' type='text' value='"+dvName   +"' readonly size='"+chooserLen+"' style='"+chooserStyle+" width: 125;' onclick=\""+chooserOnclick+"\">");
                                 } break;
                             default : {
-                                out.write("<input id='"+ID_DEVICE_ID   +"' name='"+PARM_DEVICE_ID +"' type='text' value='"+_deviceID+"' readonly size='"+chooserLen+"' style='"+chooserStyle+"' onclick=\""+chooserOnclick+"\">");
+                                out.write("<input id='"+ID_DEVICE_ID   +"' name='"+PARM_DEVICE_ID +"' type='text' value='"+_deviceID+"' readonly size='"+chooserLen+"' style='"+chooserStyle+" width: 125;' onclick=\""+chooserOnclick+"\">");
                                 } break;
                         }
                         out.write("</td>");

@@ -754,8 +754,8 @@ public class Track
             if (!loginAcctID.equals("")) { 
                 Print.logInfo("Logout: " + loginAcctID); 
             }
-            String pleaseLogin = i18n.getString("Track.pleaseLogin","Please Login");
-            Track._displayLogin(reqState, pleaseLogin, false);
+            /*String pleaseLogin = i18n.getString("Track.pleaseLogin","Please Login");
+            Track._displayLogin(reqState, pleaseLogin, false);*/
             return;
         }
 

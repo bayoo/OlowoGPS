@@ -8,6 +8,7 @@ H2.rptSubtitle    {
     font: normal 8pt sans-serif; 
     text-align: center; 
     margin-bottom: 1px;
+    color: #9a2016;
 }
 H2.rptNoData      { 
     font: bold 8pt sans-serif; 
@@ -23,7 +24,8 @@ TABLE.rptTbl      {
     border: 1px solid black;
 }
 TR.rptHdrRow      { 
-    background-color: #E2E2E2;
+    background-color: #6C6459;
+    color: white;
 }
 TH.rptHdrCol      { 
     font: bold 8pt sans-serif; 
@@ -33,9 +35,11 @@ TH.rptHdrCol      {
 }
 TR.rptBodyRowOdd  { 
     background-color: #FFFFFF;
+    color: #6C6459;
 }
 TR.rptBodyRowEven { 
     background-color: #F0F0F0;
+    color: #6C6459;
 }
 TD.rptBodyCol     { 
     font: normal 8pt sans-serif; 

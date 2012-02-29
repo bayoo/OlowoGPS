@@ -333,7 +333,7 @@ public class AccountLogin
                 out.println("</form>");
                 // "Cookies/JavaScript must be enabled"
                 out.println("<br/>");
-                out.println("<span style='font-size:8pt'><i>"+i18n.getString("AccountLogin.cookiesJavaScript","(Cookies and JavaScript must be enabled)")+"</i></span>");
+                out.println("<span style='font-size:8pt; color: #9a2016;'><i>"+i18n.getString("AccountLogin.cookiesJavaScript","(Cookies and JavaScript must be enabled)")+"</i></span>");
                 //out.println("<br/>");
                 out.println("<br/>");
                 // demo
