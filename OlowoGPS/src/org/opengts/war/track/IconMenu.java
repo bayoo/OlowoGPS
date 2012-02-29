@@ -96,9 +96,10 @@ public class IconMenu
         String menuItemImage_on  = "menuItemImage_on";
         String menuItemImage_off = "menuItemImage_off";
         String menuItemImage     = "menuItemImage";
-        String menuItemText_on   = "menuItemText_on";
-        String menuItemText_off  = "menuItemText_off";
+        /*String menuItemText_on   = "menuItemText_on";
+        String menuItemText_off  = "menuItemText_off";*/
         String menuItemText      = "menuItemText";
+
         String menuIconImage     = "menuIconImage";
 
         /* start menu */
@@ -165,10 +166,18 @@ public class IconMenu
                 String menuHelp = StringTools.trim(wp.getMenuHelp(reqState, parentPageName));
 
                 /* icon */
+                String menuItemText_on   = menuName.replace('.', '_');
+                menuItemText_on += "_on";
+                String menuItemText_off  = menuName.replace('.', '_');
+                menuItemText_off += "_off";
+                
                 String classOff = !StringTools.isBlank(buttonImg)? menuItemImage_off : menuItemText_off;
                 String classOn  = !StringTools.isBlank(buttonImg)? menuItemImage_on  : menuItemText_on;
                 String target   = StringTools.blankDefault(wp.getTarget(),"_self"); // (wp instanceof WebPageURL)? ((WebPageURL)wp).getTarget() : "_self";
                 String onclick  = "javascript:openURL('"+url+"','"+target+"')";
+                
+
+                
                 if (!target.startsWith("_")) {
                     PixelDimension pixDim = wp.getWindowDimension();
                     if (pixDim != null) {

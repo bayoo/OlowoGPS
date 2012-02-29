@@ -266,7 +266,7 @@ Notes:
     <Copyright>${Domain.Copyright=Copyright(C) 2008-2011 GeoTelematic Solutions, Inc.}</Copyright>
 
     <!-- Title used in html head 'title' tag -->
-    <PageTitle i18n="PrivateXML.pageTitle">${Domain.PageTitle=${ServiceAccount.Name=OpenGTS} GPS Tracking}</PageTitle>
+    <PageTitle i18n="PrivateXML.pageTitle">${Domain.PageTitle=${ServiceAccount.Name=Olowo} GPS Tracking}</PageTitle>
 
     <!-- Date/Time format (Note: These date/time format values are CASE SENSITIVE!!)
      === yyyy - year
@@ -326,7 +326,7 @@ Notes:
         <Property key="menuBar.includeTextAnchor">false</Property>              <!-- [true|false] include text anchor tag (link) -->
 
         <!-- TopMenu menu type -->
-        <Property key="topMenu.menuType">expand</Property>                      <!-- [fixed|expand|button] menu type -->
+        <Property key="topMenu.menuType">button</Property>                      <!-- [fixed|expand|button] menu type -->
         <!--
          ===  fixed       : Fixed (non-expandable) text menu items
          ===  fixed-icon  : Fixed text menu items with icon representation (set by "IconImage" tag)
@@ -339,7 +339,7 @@ Notes:
         <!-- TopMenu properties -->
         <Property key="topMenu.maximumIconsPerRow">9</Property>                 <!-- [#] (for 'menuType=icon') max icons per row -->
         <Property key="topMenu.showHeader">default</Property>                   <!-- [true|false|default] show header -->
-        <Property key="topMenu.showMenuDescription">long</Property>             <!-- [none|short|long] show menu description -->
+        <Property key="topMenu.showMenuDescription">none</Property>             <!-- [none|short|long] show menu description -->
         <Property key="topMenu.showMenuHelp">true</Property>                    <!-- [true|false] show menu help -->
 
         <!-- TrackMap properties -->
@@ -361,9 +361,9 @@ Notes:
         <Property key="trackMap.mapControlLocation">right</Property>            <!-- [right|left] show controls to the left|right of the map -->
         <Property key="trackMap.mapControlCollapsible">true</Property>          <!-- [true|false] show collapsible controls -->
         <Property key="trackMap.showLocateNow">false</Property>                 <!-- [true|false] show "Locate Now" button -->
-        <Property key="trackMap.showGoogleKML">false</Property>                 <!-- [true|false|last] show "Google KML" link -->
+        <Property key="trackMap.showGoogleKML">true</Property>                 <!-- [true|false|last] show "Google KML" link -->
         <Property key="trackMap.limitType">last</Property>                      <!-- [first|last] overflow limit type -->
-        <Property key="trackMap.enableGeocode">false</Property>                 <!-- [true|false] (EXPERIMENTAL) show "Find Address" -->
+        <Property key="trackMap.enableGeocode">true</Property>                 <!-- [true|false] (EXPERIMENTAL) show "Find Address" -->
         <Property key="trackMap.showDeviceLink">false</Property>                <!-- [true|false] show Device Link (requires Device support) -->
         <Property key="trackMap.showBatteryLevel">false</Property>              <!-- [false|icon|percent|default] show last Battery Level (requires Device support) -->
         <Property key="trackMap.useRouteDisplayColor">true</Property>           <!-- [true|false] use Device 'displayColor' for route-line color -->
@@ -384,21 +384,21 @@ Notes:
         <!-- DeviceInfo properties -->
         <Property key="deviceInfo.showNotificationFields">default</Property>    <!-- [true|false|default] show notification fields -->
         <Property key="deviceInfo.showWorkOrderField">default</Property>        <!-- [true|false|default] show WorkOrder ID field -->
-        <Property key="deviceInfo.showPropertiesButton">false</Property>        <!-- [true|false] show "Properties" button -->
-        <Property key="deviceInfo.showSmsButton">false</Property>               <!-- [true|false] show "SMS" button -->
+        <Property key="deviceInfo.showPropertiesButton">true</Property>        <!-- [true|false] show "Properties" button -->
+        <Property key="deviceInfo.showSmsButton">true</Property>               <!-- [true|false] show "SMS" button -->
         <Property key="deviceInfo.showFixedLocation">false</Property>           <!-- [true|false] show Device 'fixed' location (required fixe loc fields) -->
-        <Property key="deviceInfo.showNotes">false</Property>                   <!-- [true|false] show "Notes" field -->
-        <Property key="deviceInfo.showExpectedAcks">false</Property>            <!-- [true|false] show "Expect Ack" column -->
-        <Property key="deviceInfo.showIgnitionIndex">false</Property>           <!-- [true|false] show Ignition Index -->
+        <Property key="deviceInfo.showNotes">true</Property>                   <!-- [true|false] show "Notes" field -->
+        <Property key="deviceInfo.showExpectedAcks">true</Property>            <!-- [true|false] show "Expect Ack" column -->
+        <Property key="deviceInfo.showIgnitionIndex">true</Property>           <!-- [true|false] show Ignition Index -->
         <Property key="deviceInfo.showPushpinID">false</Property>               <!-- [true|false] show Pushpin ID -->
         <Property key="deviceInfo.showPushpinChooser">true</Property>           <!-- [true|false] show Pushpin Chooser -->
         <Property key="deviceInfo.showDisplayColor">true</Property>             <!-- [true|false] show Display Color ("Route-Line") -->
-        <Property key="deviceInfo.showDataKey">false</Property>                 <!-- [true|false] (EXPERIMENTAL) show Data Key -->
+        <Property key="deviceInfo.showDataKey">true</Property>                 <!-- [true|false] (EXPERIMENTAL) show Data Key -->
         <Property key="deviceInfo.allowNewDevice">true</Property>               <!-- [true|false|sysadmin] allow new device creation -->
         <Property key="deviceInfo.sms.useDeviceSMSCommands">true</Property>     <!-- [true|false] Use Device "deviceCode" SMS commands -->
 
         <!-- GroupInfo properties -->
-        <Property key="groupInfo.showPropertiesButton">false</Property>         <!-- [true|false] show "Properties" button -->
+        <Property key="groupInfo.showPropertiesButton">true</Property>         <!-- [true|false] show "Properties" button -->
 
         <!-- UserInfo properties -->
         <Property key="userInfo.showPreferredDeviceID">false</Property>         <!-- [true|false] show preferred device ID field -->
@@ -410,25 +410,25 @@ Notes:
 
         <!-- ZoneInfo properties -->
         <Property key="zoneInfo.mapControlLocation">right</Property>            <!-- [right|left] show controls to the left|right of the map -->
-        <Property key="zoneInfo.enableGeocode">false</Property>                 <!-- [true|false] (Experimental) show "Center on ZipCode" -->
-        <Property key="zoneInfo.showOverlapPriority">false</Property>           <!-- [true|false] show "Overlap Priority" pull-down -->
+        <Property key="zoneInfo.enableGeocode">true</Property>                 <!-- [true|false] (Experimental) show "Center on ZipCode" -->
+        <Property key="zoneInfo.showOverlapPriority">true</Property>           <!-- [true|false] show "Overlap Priority" pull-down -->
         <Property key="zoneInfo.showArriveDepartZone">true</Property>           <!-- [true|false] show "Arrival/Departure Zone" checkbox -->
         <Property key="zoneInfo.showClientUploadZone">false</Property>          <!-- [true|false|id] show "Client Upload" checkbox/ID -->
         <Property key="zoneInfo.showShapeColor">true</Property>                 <!-- [true|false] show zone shape color -->
-        <Property key="zoneInfo.showSpeedLimit">false</Property>                <!-- [true|false] show speed limit -->
+        <Property key="zoneInfo.showSpeedLimit">true</Property>                <!-- [true|false] show speed limit -->
         <Property key="zoneInfo.maximumDisplayedVertices">-1</Property>         <!-- [1..8] maximum number of point/vertices to display -->
 
         <!-- SysAdminAccounts properties (if available) -->
         <Property key="sysAdminAccounts.showPasswords">false</Property>         <!-- [true|false] show passwords (possible security risk) -->
         <Property key="sysAdminAccounts.allowAccountLogin">false</Property>     <!-- [true|false] allow login to other accounts (possible security risk) -->
-        <Property key="sysAdminAccounts.showAccountManager">false</Property>    <!-- [true|false] show account manager, if supported -->
+        <Property key="sysAdminAccounts.showAccountManager">true</Property>    <!-- [true|false] show account manager, if supported -->
         <Property key="sysAdminAccounts.reloginPasscode">relogin</Property>     <!-- [String] (EXPERIMENTAL) relogin passcode (possible security risk) -->
         <Property key="sysAdminAccounts.showNotes">false</Property>             <!-- [true|false] show "Notes" -->
 
         <!-- CorridorInfo properties (OPTIONAL) -->
         <Property key="corridorInfo.mapControlLocation">right</Property>        <!-- [right|left] show controls to the left|right of the map -->
         <Property key="corridorInfo.showShapeColor">true</Property>             <!-- [true|false|id] show corridor shape color -->
-        <Property key="corridorInfo.enableGeocode">false</Property>             <!-- [true|false] (Experimental) show "Center on ZipCode" -->
+        <Property key="corridorInfo.enableGeocode">true</Property>             <!-- [true|false] (Experimental) show "Center on ZipCode" -->
         <Property key="corridorInfo.pointCount">15</Property>                   <!-- [Integer] show number of corridor points -->
 
         <!-- RuleInfo properties (OPTIONAL) -->
@@ -446,9 +446,9 @@ Notes:
         <Property key="deviceChooser.sortBy">description</Property>             <!-- [id|name|description] sort by -->
         <Property key="deviceChooser.useTable">true</Property>                  <!-- [true|false] use DeviceChooser table selection -->
         <Property key="deviceChooser.idPosition">last</Property>                <!-- [none|first|last] ID column position -->
-        <Property key="deviceChooser.search">false</Property>                   <!-- [true|false] enable description search -->
+        <Property key="deviceChooser.search">true</Property>                   <!-- [true|false] enable description search -->
         <Property key="deviceChooser.singleItemTextField">false</Property>      <!-- [true|false] text field for single selections (non-table only) -->
-        <Property key="deviceChooser.includeListHtml">false</Property>          <!-- [true|false] EXPERIMENTAL -->
+        <Property key="deviceChooser.includeListHtml">true</Property>          <!-- [true|false] EXPERIMENTAL -->
         <Property key="deviceChooser.extraDebugEntries">0</Property>            <!-- DEBUG TESTING PURPOSES ONLY! -->
 
         <!-- Calendar properties -->
@@ -633,7 +633,7 @@ Notes:
      === OpenLayers [http://www.openlayers.org] using OpenStreetMaps [http://www.openstreetmap.org]
      -->
     <MapProvider name="openLayers" 
-        active="${Domain.MapProvider.active=true}"
+        active="${Domain.MapProvider.active=false}"
         class="org.opengts.war.maps.jsmap.OpenLayers"
         rtPropPrefix="Domain.MapProvider.">
         <Property key="map.fillFrame">true</Property>                  <!-- expand map to fill page frame -->
@@ -862,9 +862,9 @@ Notes:
      ===   http://code.google.com/apis/maps/terms.html
      -->
     <MapProvider name="googleMaps" 
-        active="${Domain.MapProvider.active=false}"
+        active="${Domain.MapProvider.active=true}"
         class="org.opengts.war.maps.jsmap.GoogleMaps"
-        key="${Domain.MapProvider.key=***PLACE_AUTHORIZATION_KEY_HERE***}"
+        key="${Domain.MapProvider.key=AIzaSyC7PxmypQkytO-azAEHpKKOMD_-w7uAKRQ}"
         rtPropPrefix="Domain.MapProvider.">
         
         <Property key="map.fillFrame">false</Property>

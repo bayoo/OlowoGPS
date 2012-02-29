@@ -44,8 +44,8 @@
     /*background-image: url(../images/UnselTabW25.png);
     background-position: 0px 0px;
     background-repeat: no-repeat; */
-    background: #8A847A;
-    border: 1px solid #6C6459;
+    background: #6C6459;
+    border: 1px solid black;
     border-top: none!important;
     border-left: none!important;
 	color: #EEE;
@@ -98,8 +98,8 @@
     /*background-image: url(../images/SelTabW25.png);
     background-position: 0px 0px;
     background-repeat: no-repeat;*/
-    background: #BBB6B1;
-    border: 1px solid #6C6459;
+    background: #9A2016; /*#8A847A; #BBB6B1;*/
+    border: 1px solid black; /*#6C6459;*/
     border-top: none!important;
     border-left: none!important;
 	color: #FFF;
@@ -115,13 +115,13 @@
 TABLE.menuSubFrame {
     width:  100%;
     height: 100%;
-    background-color: #C8C3BE;
+    background-color: #8A847A; /*#9A2016;*/
     border: 1px inset #6C6459;
 }
 
 TD.menuSubItemCol {
     cursor: pointer;
-    border-top: solid 1px #BBBBBB;
+    border-top: solid 1px #6C6459;
     padding-bottom: 2px;
     padding-top: 3px;
     /* padding-left: 5px */
@@ -132,7 +132,7 @@ TD.menuSubItemCol {
     font-size: 11px;
 }
 TD.menuSubItemCol:hover {
-    background-color: #E5E8ED;
+    background-color: #E75630;
     /* font-weight: bold; */
     color: white; 
 }

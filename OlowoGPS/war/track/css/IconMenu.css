@@ -145,3 +145,275 @@
     color:#333333;
 } 
 
+/* OlowoGPS changes */
+
+/* --- Mapping --- */
+#iconMenu TD.map_device_on {
+    padding: 7px 0px 0px 0px; /* top, right, bottom, left */
+    margin: 0px 0px 0px 0px;  /* top, right, bottom, left */
+    text-align: center;
+    vertical-align: bottom;
+    width: 64px;
+    height: 90px;
+    background: url('../images/mainIcon/CardboardCar2.png') no-repeat;
+    cursor: pointer;
+    color: #9a2016;
+}
+#iconMenu TD.map_device_off {
+    padding: 5px 0px 0px 0px; /* top, right, bottom, left */
+    margin: 0px 0px 0px 0px;  /* top, right, bottom, left */
+    text-align: center;
+    vertical-align: bottom;
+    width: 64px;
+    height: 90px;
+    background: url('../images/mainIcon/CardboardCar.png') no-repeat;
+    cursor: pointer;
+}
+
+#iconMenu TD.map_fleet_on {
+    padding: 7px 0px 0px 0px; /* top, right, bottom, left */
+    margin: 0px 0px 0px 0px;  /* top, right, bottom, left */
+    text-align: center;
+    vertical-align: bottom;
+    width: 64px;
+    height: 90px;
+    background: url('../images/mainIcon/CardboardGroupCar2.png') no-repeat;
+    cursor: pointer;
+    color: #9a2016;
+}
+#iconMenu TD.map_fleet_off {
+    padding: 5px 0px 0px 0px; /* top, right, bottom, left */
+    margin: 0px 0px 0px 0px;  /* top, right, bottom, left */
+    text-align: center;
+    vertical-align: bottom;
+    width: 64px;
+    height: 90px;
+    background: url('../images/mainIcon/CardboardGroupCar.png') no-repeat;
+    cursor: pointer;
+}
+
+/* --- Reports --- */
+
+#iconMenu TD.menu_rpt_devDetail_on {
+    padding: 7px 0px 0px 0px; /* top, right, bottom, left */
+    margin: 0px 0px 0px 0px;  /* top, right, bottom, left */
+    text-align: center;
+    vertical-align: bottom;
+    width: 64px;
+    height: 100px;
+    background: url('../images/mainIcon/CardboardDocumentCar2.png') no-repeat;
+    color: #9a2016;
+	cursor: pointer;
+}
+#iconMenu TD.menu_rpt_devDetail_off {
+    padding: 5px 0px 0px 0px; /* top, right, bottom, left */
+    margin: 0px 0px 0px 0px;  /* top, right, bottom, left */
+    text-align: center;
+    vertical-align: bottom;
+    width: 64px;
+    height: 100px;
+    background: url('../images/mainIcon/CardboardDocumentCar.png') no-repeat;
+    cursor: pointer;
+}
+
+#iconMenu TD.menu_rpt_grpDetail_on {
+    padding: 7px 0px 0px 0px; /* top, right, bottom, left */
+    margin: 0px 0px 0px 0px;  /* top, right, bottom, left */
+    text-align: center;
+    vertical-align: bottom;
+    width: 64px;
+    height: 100px;
+    background: url('../images/mainIcon/CardboardDocDetail2.png') no-repeat;
+    cursor: pointer;
+    color: #9a2016;
+}
+#iconMenu TD.menu_rpt_grpDetail_off {
+    padding: 5px 0px 0px 0px; /* top, right, bottom, left */
+    margin: 0px 0px 0px 0px;  /* top, right, bottom, left */
+    text-align: center;
+    vertical-align: bottom;
+    width: 64px;
+    height: 100px;
+    background: url('../images/mainIcon/CardboardDocDetail.png') no-repeat;
+    cursor: pointer;
+}
+
+
+#iconMenu TD.menu_rpt_grpSummary_on {
+    padding: 7px 0px 0px 0px; /* top, right, bottom, left */
+    margin: 0px 0px 0px 0px;  /* top, right, bottom, left */
+    text-align: center;
+    vertical-align: bottom;
+    width: 64px;
+    height: 100px;
+    background: url('../images/mainIcon/CardboardDocuments2.png') no-repeat;
+    cursor: pointer;
+    color: #9a2016;
+}
+#iconMenu TD.menu_rpt_grpSummary_off {
+    padding: 5px 0px 0px 0px; /* top, right, bottom, left */
+    margin: 0px 0px 0px 0px;  /* top, right, bottom, left */
+    text-align: center;
+    vertical-align: bottom;
+    width: 64px;
+    height: 100px;
+    background: url('../images/mainIcon/CardboardDocuments.png') no-repeat;
+    cursor: pointer;
+}
+
+#iconMenu TD.menu_rpt_devPerf_on {
+    padding: 7px 0px 0px 0px; /* top, right, bottom, left */
+    margin: 0px 0px 0px 0px;  /* top, right, bottom, left */
+    text-align: center;
+    vertical-align: bottom;
+    width: 64px;
+    height: 100px;
+    background: url('../images/mainIcon/CardboardChart2.png') no-repeat;
+    cursor: pointer;
+    color: #9a2016;
+}
+#iconMenu TD.menu_rpt_devPerf_off {
+    padding: 5px 0px 0px 0px; /* top, right, bottom, left */
+    margin: 0px 0px 0px 0px;  /* top, right, bottom, left */
+    text-align: center;
+    vertical-align: bottom;
+    width: 64px;
+    height: 100px;
+    background: url('../images/mainIcon/CardboardChart.png') no-repeat;
+    cursor: pointer;
+}
+
+/* --- Administration --- */
+#iconMenu TD.acct_info_on {
+    padding: 7px 0px 0px 0px; /* top, right, bottom, left */
+    margin: 0px 0px 0px 0px;  /* top, right, bottom, left */
+    text-align: center;
+    vertical-align: bottom;
+    width: 64px;
+    height: 90px;
+    background: url('../images/mainIcon/CardboardUtilities2.png') no-repeat;
+    cursor: pointer;
+    color: #9a2016;
+}
+#iconMenu TD.acct_info_off {
+    padding: 5px 0px 0px 0px; /* top, right, bottom, left */
+    margin: 0px 0px 0px 0px;  /* top, right, bottom, left */
+    text-align: center;
+    vertical-align: bottom;
+    width: 64px;
+    height: 90px;
+    background: url('../images/mainIcon/CardboardUtilities.png') no-repeat;
+    cursor: pointer;
+}
+
+#iconMenu TD.user_info_on {
+    padding: 7px 0px 0px 0px; /* top, right, bottom, left */
+    margin: 0px 0px 0px 0px;  /* top, right, bottom, left */
+    text-align: center;
+    vertical-align: bottom;
+    width: 64px;
+    height: 90px;
+    background: url('../images/mainIcon/CardboardUsers2.png') no-repeat;
+    cursor: pointer;
+    color: #9a2016;
+}
+#iconMenu TD.user_info_off {
+    padding: 5px 0px 0px 0px; /* top, right, bottom, left */
+    margin: 0px 0px 0px 0px;  /* top, right, bottom, left */
+    text-align: center;
+    vertical-align: bottom;
+    width: 64px;
+    height: 90px;
+    background: url('../images/mainIcon/CardboardUsers.png') no-repeat;
+    cursor: pointer;
+}
+
+
+#iconMenu TD.dev_info_on {
+    padding: 7px 0px 0px 0px; /* top, right, bottom, left */
+    margin: 0px 0px 0px 0px;  /* top, right, bottom, left */
+    text-align: center;
+    vertical-align: bottom;
+    width: 64px;
+    height: 90px;
+    background: url('../images/mainIcon/CardboardOptions2.png') no-repeat;
+    cursor: pointer;
+    color: #9a2016;
+}
+#iconMenu TD.dev_info_off {
+    padding: 5px 0px 0px 0px; /* top, right, bottom, left */
+    margin: 0px 0px 0px 0px;  /* top, right, bottom, left */
+    text-align: center;
+    vertical-align: bottom;
+    width: 64px;
+    height: 90px;
+    background: url('../images/mainIcon/CardboardOptions.png') no-repeat;
+    cursor: pointer;
+}
+
+#iconMenu TD.group_info_on {
+    padding: 7px 0px 0px 0px; /* top, right, bottom, left */
+    margin: 0px 0px 0px 0px;  /* top, right, bottom, left */
+    text-align: center;
+    vertical-align: bottom;
+    width: 64px;
+    height: 90px;
+    background: url('../images/mainIcon/CardboardGroups2.png') no-repeat;
+    cursor: pointer;
+    color: #9a2016;
+}
+#iconMenu TD.group_info_off {
+    padding: 5px 0px 0px 0px; /* top, right, bottom, left */
+    margin: 0px 0px 0px 0px;  /* top, right, bottom, left */
+    text-align: center;
+    vertical-align: bottom;
+    width: 64px;
+    height: 90px;
+    background: url('../images/mainIcon/CardboardGroups.png') no-repeat;
+    cursor: pointer;
+}
+
+
+#iconMenu TD.zone_info_on {
+    padding: 7px 0px 0px 0px; /* top, right, bottom, left */
+    margin: 0px 0px 0px 0px;  /* top, right, bottom, left */
+    text-align: center;
+    vertical-align: bottom;
+    width: 64px;
+    height: 90px;
+    background: url('../images/mainIcon/CardboardInternet2.png') no-repeat;
+    cursor: pointer;
+    color: #9a2016;
+}
+#iconMenu TD.zone_info_off {
+    padding: 5px 0px 0px 0px; /* top, right, bottom, left */
+    margin: 0px 0px 0px 0px;  /* top, right, bottom, left */
+    text-align: center;
+    vertical-align: bottom;
+    width: 64px;
+    height: 90px;
+    background: url('../images/mainIcon/CardboardInternet.png') no-repeat;
+    cursor: pointer;
+}
+
+#iconMenu TD.passwd_on {
+    padding: 7px 0px 0px 0px; /* top, right, bottom, left */
+    margin: 0px 0px 0px 0px;  /* top, right, bottom, left */
+    text-align: center;
+    vertical-align: bottom;
+    width: 64px;
+    height: 90px;
+    background: url('../images/mainIcon/CardboardPrivate2.png') no-repeat;
+    cursor: pointer;
+    color: #9a2016;
+}
+#iconMenu TD.passwd_off {
+    padding: 5px 0px 0px 0px; /* top, right, bottom, left */
+    margin: 0px 0px 0px 0px;  /* top, right, bottom, left */
+    text-align: center;
+    vertical-align: bottom;
+    width: 64px;
+    height: 90px;
+    background: url('../images/mainIcon/CardboardPrivate.png') no-repeat;
+    cursor: pointer;
+}
