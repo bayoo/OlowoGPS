@@ -242,10 +242,11 @@ TABLE.adminSelectTable {
     border: 1px solid black; 
 }
 TABLE.adminSelectTable_sortable { 
-    border: 1px solid black; 
+    border: 1px solid #6C6459; 
 }
 TR.adminTableHeaderRow { 
-    background-color: #E2E2E2; 
+    background-color: #6C6459; 
+    color: white;
 }
 TH.adminTableHeaderCol_sort { 
     white-space: nowrap;
@@ -271,10 +272,12 @@ TH.adminTableHeaderCol_nosort {
 }
 
 TR.adminTableBodyRowOdd { 
-    background-color: #FFFFFF; 
+    background-color: #FFFFFF;
+    color: #6C6459; 
 }
 TR.adminTableBodyRowEven { 
     background-color: #F0F0F0; 
+    color: #6C6459; 
 }
 TD.adminTableBodyCol {
     font: normal 8pt sans-serif;

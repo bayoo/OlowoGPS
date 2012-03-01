@@ -18,6 +18,7 @@
     text-align: left;
     border-bottom: 1px solid black;
     padding-top: 10px;
+    font-weight: bold;
 }
 
 #iconMenu TR.menuGroupIcons { 
@@ -36,6 +37,7 @@
 #iconMenu TABLE.menuItemTable {
     table-layout: fixed;
     border-spacing: 2px 2px; /* horizontal, vertical */
+	padding-bottom: 25px;
 }
 
 #iconMenu TR.menuItemRow {

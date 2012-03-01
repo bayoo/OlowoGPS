@@ -1125,7 +1125,7 @@ public abstract class TrackMap
                     out.print  (i18n.getString("TrackMap.lastGpsEvent","Last Event:") + "&nbsp;");
                     String dateTooltip = i18n.getString("TrackMap.lastGpsDate.tooltip", "Click to reset calendars to this date");
                     String dateOnclick = "javascript:trackMapGotoLastEventDate();";
-                    String dateStyle   = "color: #0000CC; cursor: pointer;";
+                    String dateStyle   = "color: #9A2016;  cursor: pointer;";
                     out.print  ("<span id='"+MapProvider.ID_LATEST_EVENT_DATE+"' onclick=\""+dateOnclick+"\" title='"+dateTooltip+"' style='"+dateStyle+"'>"+_date+"</span>&nbsp;");
                     out.print  ("<span id='"+MapProvider.ID_LATEST_EVENT_TIME+"'>"+_time+"</span>&nbsp;");
                     out.print  ("<span id='"+MapProvider.ID_LATEST_EVENT_TMZ +"'>"+_tmz +"</span>");
