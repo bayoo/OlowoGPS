@@ -140,7 +140,7 @@ fieldset p { }
 label { margin: 0 10px 0 0; }
 
 input,
-.inputbox { background:#FFF; border:1px solid #979189; padding:0 6px 0 6px; color:#6C6459; display: inline-block; font-weight: bold; font-size: 9px;text-transform: uppercase; }
+.inputbox { background:#FFF; border:1px solid #979189; padding:0 6px 0 6px; color:#6C6459; display: inline-block; font-weight: bold; font-size: 9px;}
 
 select,
 textarea,

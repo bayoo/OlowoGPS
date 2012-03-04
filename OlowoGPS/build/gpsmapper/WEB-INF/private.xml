@@ -263,7 +263,7 @@ Notes:
     <!-- ========================================================================================== -->
 
     <!-- Copyright used in html head 'meta' tag -->
-    <Copyright>${Domain.Copyright=Copyright(C) 2008-2011 GeoTelematic Solutions, Inc.}</Copyright>
+    <Copyright>${Domain.Copyright=Copyright(C) 2008-2011 OlowoGPS Fleet Tracking, Inc.}</Copyright>
 
     <!-- Title used in html head 'title' tag -->
     <PageTitle i18n="PrivateXML.pageTitle">${Domain.PageTitle=${ServiceAccount.Name=Olowo} GPS Tracking}</PageTitle>
@@ -406,7 +406,7 @@ Notes:
         <Property key="userInfo.authorizedGroupCount">0</Property>              <!-- [Integer] (EXPERIMENTAL) Number of authorized group pull-downs to show -->
 
         <!-- DriverInfo properties -->
-        <Property key="driverInfo.showDeviceID">false</Property>                <!-- [true|false] Show "Device ID" field -->
+        <Property key="driverInfo.showDeviceID">true</Property>                <!-- [true|false] Show "Device ID" field -->
 
         <!-- ZoneInfo properties -->
         <Property key="zoneInfo.mapControlLocation">right</Property>            <!-- [right|left] show controls to the left|right of the map -->
@@ -652,12 +652,12 @@ Notes:
         <!-- Geozone map size/config -->
         <!-- <Property key="zone.map.width">630</Property> -->
         <!-- <Property key="zone.map.height">540</Property> -->
-        <Property key="zone.map.multipoint">false</Property>            <!-- [true|false] false==1 point, true=6 points -->
+        <Property key="zone.map.multipoint">true</Property>            <!-- [true|false] false==1 point, true=6 points -->
         <Property key="zone.map.polygon">true</Property>                <!-- [true|false] display polygon option -->
         <Property key="zone.map.corridor">false</Property>              <!-- [true|false] display corridor option (not supported) -->
 
         <!-- include target geozones on map (a pushpin must be in the Geozone for it to be displayed) -->
-        <Property key="map.includeGeozones">false</Property>
+        <Property key="map.includeGeozones">true</Property>
 
         <!-- route line -->
         <Property key="map.routeLine">true</Property>                   <!-- include travel route line -->
@@ -1228,11 +1228,11 @@ Notes:
             <Page rtKey="GroupInfo" class="org.opengts.war.track.page.GroupInfo">
                 <AclName>acl.admin.group</AclName>
                 </Page>
-            <!-- DriverInfo: uncomment this section to enable the "Driver Admin" page
+            <!-- DriverInfo: uncomment this section to enable the "Driver Admin" page -->
             <Page rtKey="DriverInfo" class="org.opengts.war.track.page.DriverInfo">
                 <AclName>acl.admin.driver</AclName>
                 </Page>
-                -->
+                
             <Page rtKey="ZoneInfo" class="org.opengts.war.track.page.ZoneInfo">
                 <AclName>acl.admin.zone</AclName>
                 </Page>

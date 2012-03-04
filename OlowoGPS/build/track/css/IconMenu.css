@@ -419,3 +419,25 @@
     background: url('../images/mainIcon/CardboardPrivate.png') no-repeat;
     cursor: pointer;
 }
+
+#iconMenu TD.driver_info_on {
+    padding: 7px 0px 0px 0px; /* top, right, bottom, left */
+    margin: 0px 0px 0px 0px;  /* top, right, bottom, left */
+    text-align: center;
+    vertical-align: bottom;
+    width: 64px;
+    height: 90px;
+    background: url('../images/mainIcon/CardboardKeys2.png') no-repeat;
+    cursor: pointer;
+    color: #9a2016;
+}
+#iconMenu TD.driver_info_off {
+    padding: 5px 0px 0px 0px; /* top, right, bottom, left */
+    margin: 0px 0px 0px 0px;  /* top, right, bottom, left */
+    text-align: center;
+    vertical-align: bottom;
+    width: 64px;
+    height: 90px;
+    background: url('../images/mainIcon/CardboardKeys.png') no-repeat;
+    cursor: pointer;
+}
